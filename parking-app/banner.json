@@ -15,7 +15,7 @@
       "message": "test",
       "image_url": "",
       "link": "",
-      "visible": false
+      "visible": true
     }
   ]
 }
