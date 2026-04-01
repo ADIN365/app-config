@@ -2,6 +2,14 @@
   "banners": [
     {
       "id": 1,
+      "type": "ad",
+      "message": "test!",
+      "image_url": "",
+      "link": "",
+      "visible": true
+    }
+    {
+      "id": 2,
       "type": "notice",
       "message": "아차, 차! v1.0 출시!",
       "image_url": "",
