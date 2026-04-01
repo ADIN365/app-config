@@ -1,0 +1,21 @@
+{
+  "notices": [
+    {
+      "id": 1,
+      "type": "notice",
+      "message": "아차, 차! v1.0 출시!",
+      "link": "",
+      "visible": true
+    }
+  ],
+  "ads": [
+    {
+      "id": 1,
+      "type": "ad",
+      "message": "",
+      "image_url": "",
+      "link": "",
+      "visible": false
+    }
+  ]
+}
