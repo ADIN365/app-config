@@ -12,7 +12,7 @@
     {
       "id": 1,
       "type": "ad",
-      "message": "",
+      "message": "test",
       "image_url": "",
       "link": "",
       "visible": false
