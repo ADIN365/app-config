@@ -4,6 +4,6 @@
     { "id": 2, "type": "notice", "message": "아차, 차! ver1.0 출시!", "image_url": "", "link": "", "visible": true }
   ],
   "popup_banners": [
-    { "id": 1, "type": "ad", "message": "", "image_url": "", "link": "", "visible": false }
+    { "id": 1, "type": "ad", "message": "아차, 차! ver1.0 출시!", "image_url": "", "link": "", "visible": true }
   ]
 }
