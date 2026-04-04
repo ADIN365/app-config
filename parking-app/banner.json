@@ -1,7 +1,7 @@
 {
   "ads_config": {
-    "banner_enabled": true,
-    "interstitial_enabled": true
+    "banner_enabled": false,
+    "interstitial_enabled": false
   },
   "banners": [
     { "id": 1, "type": "ad", "message": "test", "image_url": "https://광고.jpg", "link": "https://사이트", "visible": false },
