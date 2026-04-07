@@ -1,7 +1,7 @@
 {
   "ads_config": {
-    "banner_enabled": true,
-    "interstitial_enabled": false,
+    "banner_main_enabled": true,
+    "banner_popup_enabled": false,
     "app_open_enabled": false
   },
   "banners": [
