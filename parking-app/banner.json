@@ -2,7 +2,7 @@
   "ads_config": {
     "banner_main_enabled": true,
     "banner_popup_enabled": false,
-    "app_open_enabled": false
+    "app_open_enabled": true
   },
   "banners": [
     { "id": 1, "type": "ad", "message": "test", "image_url": "https://광고.jpg", "link": "https://사이트", "visible": false },
