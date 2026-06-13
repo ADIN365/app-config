@@ -2,7 +2,7 @@
   "ads_config": {
     "banner_main_enabled": true,
     "banner_popup_enabled": false,
-    "app_open_enabled": true,
+    "app_open_enabled": false,
     "app_open_grace_days": 30
   },
   "banners": [
