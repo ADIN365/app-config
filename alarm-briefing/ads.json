@@ -27,6 +27,7 @@
   },
   "grace_days": 7,
   "grace": {
+    "news": 0,
     "exit": 0
   }
 }
