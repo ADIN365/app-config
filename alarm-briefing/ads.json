@@ -6,7 +6,7 @@
   "banner": {
     "briefing": false,
     "alarms": false,
-    "news": true,
+    "news": false,
     "widget": false,
     "search": false
   },
