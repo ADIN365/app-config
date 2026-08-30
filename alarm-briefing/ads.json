@@ -1,0 +1,20 @@
+{
+  "_": "브리핑알람 광고 스위치. 적힌 자리만 바뀐다 — 이름을 빼면 앱은 지난 값을 그대로 쓴다.",
+  "_자리": "briefing=브리핑탭 / alarms=알람탭 / news=뉴스탭 / widget=위젯설정탭 / search=검색탭",
+  "_없는것": "알람이 울렸을 때 뜨는 화면과 앱 열기 광고는 앱에 스위치가 없다. 여기 적어도 안 켜진다.",
+  "_단위번호": "units 를 비워 두면 구글 시험용 배너가 뜬다. 실제 번호를 받으면 여기에 채운다 (앱 매니페스트의 APPLICATION_ID 도 같이 바꿔야 한다).",
+  "banner": {
+    "briefing": false,
+    "alarms": false,
+    "news": true,
+    "widget": false,
+    "search": false
+  },
+  "units": {
+    "briefing": "",
+    "alarms": "",
+    "news": "",
+    "widget": "",
+    "search": ""
+  }
+}
