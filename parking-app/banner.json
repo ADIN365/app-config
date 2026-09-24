@@ -41,7 +41,7 @@
     {
       "id": 1,
       "type": "notice",
-      "message": "앱 설정 > 주차 팝업: [바로 촬영] 또는 [층수 B10~10F] 맞춤 설정",
+      "message": "앱 설정 > 주차 팝업\n[바로 촬영] 또는 [층수 B10~10F] 맞춤 설정",
       "image_url": "",
       "link": "",
       "visible": true,
