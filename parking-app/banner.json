@@ -30,6 +30,15 @@
   ],
   "popup_banners": [
     {
+      "id": 2,
+      "type": "notice",
+      "message": "새 버전이 나왔습니다 · 눌러서 업데이트",
+      "image_url": "",
+      "link": "https://play.google.com/store/apps/details?id=c.lazyworks.parking",
+      "visible": true,
+      "max_version_code": 21
+    },
+    {
       "id": 1,
       "type": "notice",
       "message": "앱 설정 > 주차 팝업: [바로 촬영] 또는 [층수 B10~10F] 맞춤 설정",
