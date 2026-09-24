@@ -31,11 +31,12 @@
   "popup_banners": [
     {
       "id": 1,
-      "type": "ad",
-      "message": "내차찾기 ver1.2 출시!",
+      "type": "notice",
+      "message": "앱 설정 > 주차 팝업: [바로 촬영] 또는 [층수 B10~10F] 맞춤 설정",
       "image_url": "",
       "link": "",
-      "visible": false
+      "visible": true,
+      "min_version_code": 22
     }
   ]
 }
