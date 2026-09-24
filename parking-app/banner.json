@@ -34,7 +34,7 @@
       "type": "notice",
       "message": "새 버전이 나왔습니다 · 눌러서 업데이트",
       "image_url": "",
-      "link": "https://play.google.com/store/apps/details?id=c.lazyworks.parking",
+      "link": "market://details?id=c.lazyworks.parking",
       "visible": true,
       "max_version_code": 21
     },
@@ -45,7 +45,8 @@
       "image_url": "",
       "link": "",
       "visible": true,
-      "min_version_code": 22
+      "min_version_code": 22,
+      "action": "settings_popup"
     }
   ]
 }
