@@ -36,7 +36,14 @@
       "image_url": "",
       "link": "market://details?id=c.lazyworks.parking",
       "visible": true,
-      "max_version_code": 21
+      "max_version_code": 21,
+      "messages": {
+        "ko": "새 버전이 나왔습니다 · 눌러서 업데이트",
+        "en": "A new version is available · Tap to update",
+        "ja": "新しいバージョンがあります · タップして更新",
+        "zh-Hans": "新版本已发布 · 点击更新",
+        "zh-Hant": "新版本已推出 · 點一下更新"
+      }
     },
     {
       "id": 1,
@@ -46,7 +53,14 @@
       "link": "",
       "visible": true,
       "min_version_code": 22,
-      "action": "settings_popup"
+      "action": "settings_popup",
+      "messages": {
+        "ko": "앱 설정 > 주차 팝업 설정\n[사진촬영 팝업] 또는 층수 버튼(B10~10F)을 설정하세요.",
+        "en": "Settings > Parking prompt settings\nChoose “Open camera” or customize level buttons (B10–L10).",
+        "ja": "設定 > 駐車画面の設定\n「撮影画面」の表示や階数ボタン（B10〜10F）を変更できます。",
+        "zh-Hans": "设置 > 停车弹窗设置\n可选择“拍照弹窗”，或自定义楼层按钮（B10～10F）。",
+        "zh-Hant": "設定 > 停車視窗設定\n可選擇「拍照視窗」，或自訂樓層按鈕（B10～10F）。"
+      }
     }
   ]
 }
