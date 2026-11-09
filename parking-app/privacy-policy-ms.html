@@ -18,13 +18,14 @@ th { background-color: #f5f5f5; }
 <body>
 <h1>Cari Kereta Saya — Dasar Privasi</h1>
 <p>LazyWorks (selepas ini dirujuk sebagai ‘Pembangun’) menghormati privasi pengguna aplikasi Cari Kereta Saya (selepas ini dirujuk sebagai ‘Aplikasi’) dan menyediakan dasar ini menurut Akta Perlindungan Maklumat Peribadi Republik Korea.</p>
-<h2>1. Maklumat peribadi yang dikumpulkan</h2>
-<p>Untuk menyediakan perkhidmatan, Aplikasi memproses maklumat berikut hanya pada peranti anda.</p>
+<h2>1. Maklumat yang diproses</h2>
+<p>Rekod parkir dan foto disimpan terutamanya pada peranti anda. Pembangun tidak mengendalikan pelayan berasingan untuk memuat naik rekod parkir. Namun, data boleh dihantar keluar daripada peranti melalui perkhidmatan luar dan sandaran sistem pengendalian yang diterangkan di bawah.</p>
 <table>
 <thead><tr><th scope="col">Maklumat</th><th scope="col">Tujuan</th><th scope="col">Tempat penyimpanan</th></tr></thead>
-<tbody><tr><td>Maklumat lokasi (GPS)</td><td>Menyimpan lokasi parkir secara automatik dan memaparkannya pada peta</td><td>Pangkalan data setempat pada peranti</td></tr>
+<tbody><tr><td>Koordinat, alamat, tingkat dan masa parkir</td><td>Menyimpan dan melihat lokasi parkir serta memaparkan widget</td><td>Pangkalan data peranti</td></tr>
 <tr><td>Maklumat peranti Bluetooth (nama dan alamat MAC)</td><td>Merekod parkir secara automatik dengan mengesan sambungan dan pemutusan sambungan Bluetooth kereta</td><td>Pangkalan data setempat pada peranti</td></tr>
 <tr><td>Foto kamera</td><td>Menyimpan foto lokasi parkir apabila pengguna memilih untuk mengambil foto</td><td>Storan peranti</td></tr>
+<tr><td>Tetapan aplikasi, status pembuangan iklan dan ganjaran</td><td>Mengekalkan pilihan dan menerapkan manfaat</td><td>Storan tetapan peranti</td></tr>
 </tbody></table>
 <h2>2. Tujuan pengumpulan dan penggunaan</h2>
 <ul>
@@ -32,41 +33,48 @@ th { background-color: #f5f5f5; }
 <li>Memaparkan lokasi parkir pada peta untuk membantu pengguna mencari kereta</li>
 <li>Merekod aras parkir dan foto</li>
 <li>Memaparkan butiran parkir melalui widget pada skrin utama</li>
+<li>Penyampaian iklan, pembelian pembuangan iklan dan ganjaran, analisis penggunaan dan ralat, serta notis dan maklumat kemas kini</li>
 </ul>
-<h2>3. Penyimpanan dan pemadaman data</h2>
+<h2>3. Penyimpanan, pemadaman dan sandaran</h2>
 <ul>
-<li>Semua data disimpan hanya pada peranti pengguna dan tidak dihantar ke pelayan luar.</li>
-<li>Rekod parkir dipadam secara automatik selepas tempoh penyimpanan yang dipilih pengguna (7 hari hingga 1 tahun).</li>
-<li>Menyahpasang Aplikasi akan memadamkan semua data serta-merta.</li>
+<li>Rekod parkir semasa disimpan sehingga anda memadamkannya atau rekod baharu menggantikannya bagi kenderaan yang sama. Foto dibersihkan apabila diganti atau rekodnya dipadamkan; foto yang tidak lagi dirujuk juga boleh dibuang apabila Aplikasi dibuka.</li>
+<li>Jika sejarah parkir diaktifkan, entri yang melebihi tempoh pilihan anda (7, 30, 90 atau 365 hari; lalai 30 hari) dibuang apabila entri sejarah seterusnya disimpan, bukan tepat ketika tempoh tamat. Anda juga boleh memadamkan semuanya pada skrin sejarah.</li>
+<li>Aplikasi membenarkan sandaran Android dan tidak mengecualikan pangkalan data parkir, tetapan atau foto khusus aplikasi secara berasingan. Bergantung pada peranti, akaun, tetapan sandaran dan had sistem pengendalian, data ini boleh dimasukkan dalam sandaran awan atau pemindahan antara peranti dan dipulihkan selepas pemasangan semula atau pertukaran peranti. Pembangun tidak boleh mengakses atau memadamkan sandaran sistem pengendalian ini secara langsung.</li>
+<li>Menyahpasang Aplikasi atau mengosongkan datanya dalam tetapan peranti memadamkan data Aplikasi pada peranti tersebut. Ini tidak serta-merta memadamkan sandaran sedia ada, data yang telah diterima perkhidmatan luar atau rekod pembelian Google Play. Urus sandaran secara berasingan dalam tetapan peranti atau akaun.</li>
+<li>Data perkhidmatan luar tertakluk pada dasar penyimpanan dan tetapan yang berkenaan bagi setiap perkhidmatan. Crashlytics menyimpan jejak ranap dan pengecam berkaitan selama 90 hari sebelum memulakan proses pemadaman. Tempoh penyimpanan rekod analitik, iklan, pembelian dan akses berbeza mengikut perkhidmatan serta jenis data, dan berasingan daripada tempoh sejarah parkir Aplikasi.</li>
 </ul>
-<h2>4. Perkhidmatan pihak ketiga</h2>
-<p>Aplikasi tidak memberikan maklumat peribadi anda kepada pihak ketiga. Walau bagaimanapun, perkhidmatan berikut mungkin mengumpulkan data menurut dasar privasi masing-masing.</p>
+<h2>4. Perkhidmatan luar dan pemindahan data</h2>
+<p>Perkhidmatan berikut memproses data apabila cirinya berjalan, termasuk pengecam dan maklumat diagnostik yang dikumpulkan secara automatik oleh SDK. Oleh itu, kami tidak menjamin semua data adalah tanpa nama. Bergantung pada penyedia dan tetapan, pemprosesan boleh berlaku di luar negara tempat tinggal anda, termasuk Amerika Syarikat. Dasar penyedia menerangkan penyimpanan, pemindahan dan pemadaman.</p>
 <ul>
-<li><strong dir="ltr">Google AdMob</strong> — Mengumpulkan pengecam pengiklanan untuk memaparkan iklan (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Dasar Privasi Google</a>)</li>
-<li><strong dir="ltr">Firebase Crashlytics</strong> — Mengumpulkan log ranap untuk menganalisis ralat aplikasi (tanpa maklumat yang mengenal pasti individu)</li>
-<li><strong dir="ltr">Firebase Analytics</strong> — Mengumpulkan statistik penggunaan tanpa nama, seperti jenis isyarat Bluetooth dan masa respons, tanpa maklumat yang mengenal pasti individu</li>
-<li><strong dir="ltr">Google Play</strong> — Memproses pembelian dalam aplikasi untuk membuang iklan</li>
+<li><strong dir="ltr">Google AdMob</strong> — Memproses alamat IP (yang boleh menunjukkan lokasi anggaran), pengecam iklan dan aplikasi, tontonan, klik serta interaksi iklan, dan diagnostik untuk menyampaikan serta mengukur iklan dan mencegah penipuan. Pengecam yang tersedia dan pemprosesan bergantung pada tetapan peranti dan iklan. (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Dasar Privasi Google</a>)</li>
+<li><strong dir="ltr">Firebase Crashlytics</strong> — Menghantar pengecam pemasangan, maklumat peranti, OS dan aplikasi, jejak tindanan ranap, pengecualian dan log diagnostik kepada Google untuk menyiasat ralat. Jika carian lokasi gagal, alamat MAC Bluetooth kenderaan mungkin disertakan dalam log ralat. (<a href="https://firebase.google.com/support/privacy">Firebase</a>)</li>
+<li><strong dir="ltr">Firebase Analytics</strong> — Google memproses pengecam tika aplikasi dan iklan, maklumat peranti, lokasi anggaran dan peristiwa penggunaan. Aplikasi turut menghantar jenis isyarat pemutusan Bluetooth (HFP, A2DP, ACL) dan masa sehingga tetingkap timbul dipaparkan. Peristiwa tersuai ini tidak mengandungi koordinat parkir, foto, nama kenderaan atau alamat MAC.</li>
+<li><strong dir="ltr">Google Play</strong> — Google Play mengendalikan pembelian. Aplikasi menyemak status dan token pembelian serta mengesahkannya untuk menerapkan atau memulihkan pembuangan iklan. Pembangun tidak menerima butiran kaedah pembayaran seperti nombor kad secara langsung. Pembuangan iklan tidak menghentikan semua analitik, pelaporan ralat atau sandaran.</li>
+<li><strong dir="ltr">GitHub</strong> — Mendapatkan notis, petua dan maklumat versi daripada GitHub atau membuka dasar ini menghantar alamat IP dan maklumat permintaan kepada penyedia pengehosan. Memuatkan imej notis jauh atau membuka pautan turut menghantar maklumat akses ke pelayan berkaitan. Permintaan konfigurasi notis tidak melampirkan pangkalan data parkir atau foto. (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>)</li>
+<li><strong dir="ltr">Android / Google Play services</strong> — Dengan kebenaran lokasi, Aplikasi mendapatkan koordinat melalui Google Play services dan mencari alamat melalui Android Geocoder. Koordinat dan bahasa mungkin dihantar kepada penyedia penukaran koordinat kepada alamat pada peranti. Pemprosesan bergantung pada perkhidmatan lokasi dan tetapan peranti.</li>
+<li><strong dir="ltr">Maps</strong> — Apabila anda membuka lokasi parkir pada peta, Aplikasi menyerahkan koordinat dan nama paparan kepada aplikasi peta pilihan, seperti Google Maps, NAVER Map, KakaoMap atau TMAP. Pemprosesan seterusnya mengikut dasar perkhidmatan tersebut.</li>
 </ul>
 <h2>5. Kebenaran aplikasi</h2>
 <table>
-<thead><tr><th scope="col">Kebenaran</th><th scope="col">Tujuan</th><th scope="col">Keperluan</th></tr></thead>
-<tbody><tr><td>Lokasi (tepat/latar belakang)</td><td>Menyimpan lokasi GPS secara automatik semasa parkir</td><td>Diperlukan</td></tr>
-<tr><td>Bluetooth (sambungan/imbasan)</td><td>Mengesan sambungan Bluetooth kereta</td><td>Diperlukan</td></tr>
-<tr><td>Kamera</td><td>Mengambil foto lokasi parkir</td><td>Pilihan</td></tr>
-<tr><td>Pemberitahuan</td><td>Memaparkan pemberitahuan apabila parkir dikesan</td><td>Pilihan</td></tr>
-<tr><td>Papar di atas apl lain</td><td>Memaparkan pop timbul parkir</td><td>Pilihan</td></tr>
+<thead><tr><th scope="col">Kebenaran</th><th scope="col">Tujuan</th><th scope="col">Jika ditolak</th></tr></thead>
+<tbody><tr><td>Lokasi (tepat/latar belakang)</td><td>Menyimpan lokasi GPS secara automatik semasa parkir</td><td>Penyimpanan lokasi automatik terhad.</td></tr>
+<tr><td>Bluetooth (sambungan/imbasan)</td><td>Mengesan sambungan Bluetooth kereta</td><td>Pengesanan automatik kenderaan terhad.</td></tr>
+<tr><td>Kamera</td><td>Mengambil foto lokasi parkir</td><td>Tidak boleh mengambil foto.</td></tr>
+<tr><td>Pemberitahuan</td><td>Memaparkan pemberitahuan apabila parkir dikesan</td><td>Paparan pemberitahuan terhad.</td></tr>
+<tr><td>Papar di atas apl lain</td><td>Memaparkan pop timbul parkir</td><td>Tetingkap timbul mungkin terhad.</td></tr>
 </tbody></table>
-<h2>6. Hak pengguna</h2>
+<h2>6. Pilihan dan hak anda</h2>
 <ul>
-<li>Anda boleh memadamkan rekod parkir sendiri dalam tetapan Aplikasi.</li>
-<li>Anda boleh menukar atau menarik balik kebenaran Aplikasi pada bila-bila masa melalui tetapan peranti.</li>
-<li>Menyahpasang Aplikasi akan memadamkan semua data yang disimpan sepenuhnya.</li>
+<li>Anda boleh memadamkan rekod parkir pada skrin utama, atau mematikan rakaman sejarah dan memadamkan semua sejarah pada skrin sejarah. Mematikan rakaman sahaja tidak memadamkan entri sedia ada.</li>
+<li>Anda boleh mengubah atau menarik balik kebenaran lokasi, Bluetooth, kamera dan lain-lain dalam tetapan peranti; ini boleh mengehadkan ciri berkaitan. ID iklan dan sandaran juga boleh diurus dalam tetapan peranti atau akaun.</li>
+<li>Aplikasi tidak mempunyai suis berasingan untuk mematikan analitik atau pelaporan ralat. Memadamkan ID iklan atau membeli pembuangan iklan tidak menghentikan semua pemprosesan data luaran. Untuk data perkhidmatan luar, gunakan kawalan privasi penyedia atau hubungi kami di bawah.</li>
+<li>Hubungi alamat e-mel di bawah untuk meminta akses, pembetulan, pemadaman atau sekatan pemprosesan. Kami meneliti permintaan mengikut undang-undang yang berkenaan. Pembangun tidak boleh mengakses rekod yang hanya disimpan pada peranti anda dari jauh; padamkannya melalui Aplikasi atau tetapan peranti.</li>
 </ul>
 <h2>7. Hubungan berkaitan privasi</h2>
 <ul><li>Pembangun: <bdi>LazyWorks</bdi></li>
 <li>E-mel: <a href="mailto:c.lazy.works@gmail.com" dir="ltr">c.lazy.works@gmail.com</a></li></ul>
 <h2>8. Perubahan dasar</h2>
-<p>Jika dasar ini berubah, kami akan memaklumkan anda melalui pengumuman dalam Aplikasi atau pada halaman ini.</p>
-<p class="date">Tarikh berkuat kuasa: 4 April 2026</p>
+<p>Perubahan diumumkan dalam Aplikasi atau pada halaman ini. Semakan ini menjelaskan pemindahan ke perkhidmatan luar, alamat Bluetooth dalam log ralat, sandaran, pemulihan dan masa pemadaman sebenar. Ciri yang tersedia mungkin berbeza mengikut versi yang dipasang.</p>
+<p class="date">Tarikh kuat kuasa dan semakan terakhir: 9 November 2026</p>
 </body>
 </html>

@@ -18,13 +18,14 @@ th { background-color: #f5f5f5; }
 <body>
 <h1>Tìm xe của tôi — Chính sách quyền riêng tư</h1>
 <p>LazyWorks (sau đây gọi là ‘Nhà phát triển’) coi trọng quyền riêng tư của người dùng ứng dụng Tìm xe của tôi (sau đây gọi là ‘Ứng dụng’) và công bố chính sách này theo Luật Bảo vệ thông tin cá nhân của Hàn Quốc.</p>
-<h2>1. Thông tin cá nhân được thu thập</h2>
-<p>Để cung cấp dịch vụ, Ứng dụng chỉ xử lý các thông tin sau trên thiết bị của bạn.</p>
+<h2>1. Thông tin được xử lý</h2>
+<p>Thông tin đỗ xe và ảnh chủ yếu được lưu trên thiết bị. Nhà phát triển không vận hành máy chủ riêng để tải thông tin đỗ xe lên. Tuy nhiên, dữ liệu có thể được truyền ra ngoài thiết bị qua các dịch vụ bên ngoài và tính năng sao lưu của hệ điều hành được mô tả dưới đây.</p>
 <table>
 <thead><tr><th scope="col">Loại thông tin</th><th scope="col">Mục đích</th><th scope="col">Nơi lưu trữ</th></tr></thead>
-<tbody><tr><td>Thông tin vị trí (GPS)</td><td>Tự động lưu vị trí đỗ xe và hiển thị trên bản đồ</td><td>Cơ sở dữ liệu cục bộ trên thiết bị</td></tr>
+<tbody><tr><td>Tọa độ, địa chỉ, tầng và thời gian đỗ xe</td><td>Lưu, xem vị trí đỗ xe và hiển thị tiện ích</td><td>Cơ sở dữ liệu trên thiết bị</td></tr>
 <tr><td>Thông tin thiết bị Bluetooth (tên, địa chỉ MAC)</td><td>Tự động ghi lại lần đỗ xe khi phát hiện kết nối hoặc ngắt kết nối Bluetooth của xe</td><td>Cơ sở dữ liệu cục bộ trên thiết bị</td></tr>
 <tr><td>Ảnh chụp bằng máy ảnh</td><td>Lưu ảnh vị trí đỗ xe khi người dùng chọn chụp ảnh</td><td>Bộ nhớ thiết bị</td></tr>
+<tr><td>Cài đặt, trạng thái gỡ quảng cáo và phần thưởng</td><td>Duy trì tùy chọn và áp dụng quyền lợi</td><td>Vùng lưu cài đặt trên thiết bị</td></tr>
 </tbody></table>
 <h2>2. Mục đích thu thập và sử dụng</h2>
 <ul>
@@ -32,41 +33,48 @@ th { background-color: #f5f5f5; }
 <li>Hiển thị vị trí đỗ xe trên bản đồ để giúp người dùng tìm xe</li>
 <li>Ghi lại tầng đỗ xe và ảnh</li>
 <li>Hiển thị thông tin đỗ xe qua tiện ích trên màn hình chính</li>
+<li>Cung cấp quảng cáo, xử lý giao dịch gỡ quảng cáo và phần thưởng, phân tích sử dụng và lỗi, cung cấp thông báo và thông tin cập nhật</li>
 </ul>
-<h2>3. Lưu giữ và xóa dữ liệu</h2>
+<h2>3. Lưu giữ, xóa và sao lưu</h2>
 <ul>
-<li>Tất cả dữ liệu chỉ được lưu trên thiết bị của người dùng và không được gửi đến máy chủ bên ngoài.</li>
-<li>Lịch sử đỗ xe được tự động xóa sau thời gian lưu giữ do người dùng chọn (từ 7 ngày đến 1 năm).</li>
-<li>Khi gỡ cài đặt Ứng dụng, tất cả dữ liệu sẽ bị xóa ngay lập tức.</li>
+<li>Thông tin đỗ xe hiện tại được giữ đến khi bạn xóa hoặc có thông tin mới thay thế cho cùng xe. Ảnh được dọn dẹp khi thay ảnh hoặc xóa bản ghi; ảnh không còn được bản ghi nào sử dụng cũng có thể được xóa khi mở Ứng dụng.</li>
+<li>Khi bật lưu lịch sử đỗ xe, các mục quá thời hạn đã chọn (7, 30, 90 hoặc 365 ngày; mặc định 30 ngày) được xóa vào lần lưu lịch sử tiếp theo, không phải ngay khi hết hạn. Bạn cũng có thể xóa toàn bộ trên màn hình lịch sử.</li>
+<li>Ứng dụng cho phép sao lưu Android và không đặt quy tắc loại trừ riêng cho cơ sở dữ liệu đỗ xe, cài đặt hay ảnh trong vùng lưu trữ riêng của ứng dụng. Tùy thiết bị, tài khoản, cài đặt sao lưu và giới hạn của hệ điều hành, dữ liệu này có thể nằm trong bản sao lưu đám mây hoặc được chuyển giữa các thiết bị, rồi khôi phục khi cài lại hoặc đổi thiết bị. Nhà phát triển không thể trực tiếp xem hoặc xóa các bản sao lưu hệ điều hành này.</li>
+<li>Gỡ cài đặt hoặc xóa dữ liệu ứng dụng trong cài đặt thiết bị sẽ xóa dữ liệu của Ứng dụng trên thiết bị đó. Thao tác này không đồng thời xóa ngay bản sao lưu đã có, dữ liệu dịch vụ bên ngoài đã nhận hay lịch sử mua hàng Google Play. Hãy quản lý bản sao lưu riêng trong cài đặt thiết bị hoặc tài khoản.</li>
+<li>Dữ liệu tại dịch vụ bên ngoài tuân theo chính sách lưu giữ và cài đặt áp dụng của từng dịch vụ. Crashlytics giữ thông tin truy vết sự cố và mã nhận dạng liên quan trong 90 ngày trước khi bắt đầu quy trình xóa. Thời hạn giữ dữ liệu phân tích, quảng cáo, mua hàng và truy cập tùy dịch vụ và loại dữ liệu, độc lập với thời hạn lưu lịch sử đỗ xe.</li>
 </ul>
-<h2>4. Dịch vụ của bên thứ ba</h2>
-<p>Ứng dụng không cung cấp thông tin cá nhân của bạn cho bên thứ ba. Tuy nhiên, các dịch vụ dưới đây có thể thu thập dữ liệu theo chính sách quyền riêng tư của riêng họ.</p>
+<h2>4. Dịch vụ bên ngoài và truyền dữ liệu</h2>
+<p>Các dịch vụ dưới đây xử lý dữ liệu khi tính năng liên quan hoạt động, bao gồm mã nhận dạng và thông tin chẩn đoán do SDK tự động thu thập. Vì vậy, chúng tôi không khẳng định mọi dữ liệu đều ẩn danh. Tùy nhà cung cấp và cài đặt, dữ liệu có thể được xử lý ngoài quốc gia bạn cư trú, bao gồm Hoa Kỳ. Chính sách của từng nhà cung cấp giải thích việc lưu giữ, chuyển và xóa dữ liệu.</p>
 <ul>
-<li><strong dir="ltr">Google AdMob</strong> — Thu thập mã nhận dạng quảng cáo để cung cấp quảng cáo (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Chính sách quyền riêng tư của Google</a>)</li>
-<li><strong dir="ltr">Firebase Crashlytics</strong> — Thu thập nhật ký sự cố để phân tích lỗi ứng dụng (không chứa thông tin nhận dạng cá nhân)</li>
-<li><strong dir="ltr">Firebase Analytics</strong> — Thu thập số liệu sử dụng ẩn danh, như loại tín hiệu Bluetooth và thời gian phản hồi, không chứa thông tin nhận dạng cá nhân</li>
-<li><strong dir="ltr">Google Play</strong> — Xử lý giao dịch mua trong ứng dụng để gỡ quảng cáo</li>
+<li><strong dir="ltr">Google AdMob</strong> — Xử lý địa chỉ IP (có thể dùng để suy ra khu vực gần đúng), mã nhận dạng quảng cáo và ứng dụng, lượt xem, lượt nhấp cùng tương tác quảng cáo và thông tin chẩn đoán để cung cấp, đo lường quảng cáo và chống gian lận. Mã nhận dạng khả dụng và cách xử lý tùy cài đặt thiết bị và quảng cáo. (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Chính sách quyền riêng tư của Google</a>)</li>
+<li><strong dir="ltr">Firebase Crashlytics</strong> — Gửi mã nhận dạng cài đặt, thông tin thiết bị, hệ điều hành và ứng dụng, dấu vết ngăn xếp sự cố, ngoại lệ và nhật ký chẩn đoán cho Google để phân tích lỗi. Nếu lấy vị trí thất bại, nhật ký lỗi có thể chứa địa chỉ MAC Bluetooth của xe. (<a href="https://firebase.google.com/support/privacy">Firebase</a>)</li>
+<li><strong dir="ltr">Firebase Analytics</strong> — Google xử lý mã nhận dạng phiên bản cài đặt ứng dụng và quảng cáo, thông tin thiết bị, khu vực gần đúng và sự kiện sử dụng. Ứng dụng cũng gửi loại tín hiệu ngắt Bluetooth (HFP, A2DP, ACL) và thời gian đến khi hiển thị cửa sổ bật lên. Các sự kiện tùy chỉnh này không chứa tọa độ đỗ xe, ảnh, tên xe hay địa chỉ MAC.</li>
+<li><strong dir="ltr">Google Play</strong> — Google Play xử lý giao dịch mua. Ứng dụng truy vấn trạng thái, mã thông báo giao dịch và xác nhận mua để áp dụng hoặc khôi phục quyền lợi gỡ quảng cáo. Nhà phát triển không trực tiếp nhận thông tin phương thức thanh toán như số thẻ. Gỡ quảng cáo không đồng nghĩa với dừng toàn bộ hoạt động phân tích, báo lỗi hoặc sao lưu.</li>
+<li><strong dir="ltr">GitHub</strong> — Khi tải thông báo, mẹo và thông tin phiên bản từ GitHub hoặc mở chính sách này, địa chỉ IP và thông tin yêu cầu được gửi đến nhà cung cấp dịch vụ lưu trữ. Tải ảnh thông báo từ xa hoặc mở liên kết cũng gửi thông tin truy cập đến máy chủ tương ứng. Yêu cầu tải cấu hình thông báo không đính kèm cơ sở dữ liệu đỗ xe hay ảnh. (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>)</li>
+<li><strong dir="ltr">Android / Google Play services</strong> — Với quyền vị trí, Ứng dụng lấy tọa độ qua Google Play services và tra địa chỉ bằng Android Geocoder. Tọa độ và ngôn ngữ có thể được gửi đến nhà cung cấp dịch vụ chuyển tọa độ thành địa chỉ của thiết bị. Việc xử lý tùy dịch vụ vị trí và cài đặt thiết bị.</li>
+<li><strong dir="ltr">Maps</strong> — Khi bạn mở vị trí đỗ xe trên bản đồ, Ứng dụng chuyển tọa độ và tên hiển thị cho ứng dụng bản đồ đã chọn, chẳng hạn Google Maps, NAVER Map, KakaoMap hoặc TMAP. Việc xử lý tiếp theo tuân theo chính sách của dịch vụ đó.</li>
 </ul>
 <h2>5. Quyền truy cập của ứng dụng</h2>
 <table>
-<thead><tr><th scope="col">Quyền truy cập</th><th scope="col">Mục đích</th><th scope="col">Mức độ cần thiết</th></tr></thead>
-<tbody><tr><td>Vị trí (chính xác/nền)</td><td>Tự động lưu vị trí GPS khi đỗ xe</td><td>Bắt buộc</td></tr>
-<tr><td>Bluetooth (kết nối/quét)</td><td>Phát hiện kết nối Bluetooth của xe</td><td>Bắt buộc</td></tr>
-<tr><td>Máy ảnh</td><td>Chụp ảnh vị trí đỗ xe</td><td>Tùy chọn</td></tr>
-<tr><td>Thông báo</td><td>Hiển thị thông báo khi phát hiện đỗ xe</td><td>Tùy chọn</td></tr>
-<tr><td>Hiển thị trên ứng dụng khác</td><td>Hiển thị cửa sổ đỗ xe</td><td>Tùy chọn</td></tr>
+<thead><tr><th scope="col">Quyền truy cập</th><th scope="col">Mục đích</th><th scope="col">Nếu từ chối</th></tr></thead>
+<tbody><tr><td>Vị trí (chính xác/nền)</td><td>Tự động lưu vị trí GPS khi đỗ xe</td><td>Hạn chế tự động lưu vị trí.</td></tr>
+<tr><td>Bluetooth (kết nối/quét)</td><td>Phát hiện kết nối Bluetooth của xe</td><td>Hạn chế phát hiện tự động theo xe.</td></tr>
+<tr><td>Máy ảnh</td><td>Chụp ảnh vị trí đỗ xe</td><td>Không thể chụp ảnh.</td></tr>
+<tr><td>Thông báo</td><td>Hiển thị thông báo khi phát hiện đỗ xe</td><td>Hạn chế hiển thị thông báo.</td></tr>
+<tr><td>Hiển thị trên ứng dụng khác</td><td>Hiển thị cửa sổ đỗ xe</td><td>Cửa sổ bật lên có thể bị hạn chế.</td></tr>
 </tbody></table>
-<h2>6. Quyền của người dùng</h2>
+<h2>6. Lựa chọn và quyền của bạn</h2>
 <ul>
-<li>Bạn có thể tự xóa bản ghi đỗ xe trong phần cài đặt của Ứng dụng.</li>
-<li>Bạn có thể thay đổi hoặc thu hồi quyền truy cập của Ứng dụng bất cứ lúc nào trong phần cài đặt của thiết bị.</li>
-<li>Khi gỡ cài đặt Ứng dụng, toàn bộ dữ liệu đã lưu sẽ bị xóa hoàn toàn.</li>
+<li>Bạn có thể xóa thông tin đỗ xe ở màn hình chính, tắt lưu lịch sử hoặc xóa toàn bộ lịch sử ở màn hình lịch sử. Chỉ tắt lưu lịch sử không xóa các mục đã có.</li>
+<li>Bạn có thể thay đổi hoặc thu hồi quyền vị trí, Bluetooth, camera và các quyền khác trong cài đặt thiết bị; chức năng liên quan có thể bị hạn chế. Mã quảng cáo và bản sao lưu cũng có thể được quản lý trong cài đặt thiết bị hoặc tài khoản.</li>
+<li>Ứng dụng không có công tắc riêng để tắt phân tích hoặc báo lỗi. Xóa mã quảng cáo hay mua gói gỡ quảng cáo không dừng mọi hoạt động xử lý dữ liệu bên ngoài. Với dữ liệu của dịch vụ bên ngoài, hãy dùng công cụ quản lý quyền riêng tư của nhà cung cấp hoặc liên hệ bên dưới.</li>
+<li>Để yêu cầu truy cập, chỉnh sửa, xóa dữ liệu hoặc hạn chế xử lý, hãy liên hệ email bên dưới. Chúng tôi xem xét yêu cầu theo pháp luật áp dụng. Nhà phát triển không thể truy cập từ xa các bản ghi chỉ nằm trên thiết bị; hãy xóa chúng qua Ứng dụng hoặc cài đặt thiết bị.</li>
 </ul>
 <h2>7. Liên hệ về quyền riêng tư</h2>
 <ul><li>Nhà phát triển: <bdi>LazyWorks</bdi></li>
 <li>Email: <a href="mailto:c.lazy.works@gmail.com" dir="ltr">c.lazy.works@gmail.com</a></li></ul>
 <h2>8. Thay đổi chính sách</h2>
-<p>Nếu chính sách này thay đổi, chúng tôi sẽ thông báo trong Ứng dụng hoặc trên trang này.</p>
-<p class="date">Ngày có hiệu lực: 4 tháng 4 năm 2026</p>
+<p>Thay đổi được thông báo trong Ứng dụng hoặc trên trang này. Bản sửa đổi này làm rõ việc truyền dữ liệu đến dịch vụ bên ngoài, địa chỉ Bluetooth trong nhật ký lỗi, sao lưu, khôi phục và thời điểm xóa thực tế. Tính năng có thể khác nhau tùy phiên bản đã cài đặt.</p>
+<p class="date">Có hiệu lực và sửa đổi lần cuối: ngày 9 tháng 11 năm 2026</p>
 </body>
 </html>

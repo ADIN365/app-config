@@ -18,13 +18,14 @@ th { background-color: #f5f5f5; }
 <body>
 <h1>Cari Mobil Saya — Kebijakan Privasi</h1>
 <p>LazyWorks (selanjutnya disebut ‘Pengembang’) menghargai privasi pengguna aplikasi Cari Mobil Saya (selanjutnya disebut ‘Aplikasi’) dan menyediakan kebijakan ini sesuai dengan Undang-Undang Perlindungan Informasi Pribadi Republik Korea.</p>
-<h2>1. Informasi pribadi yang dikumpulkan</h2>
-<p>Untuk menyediakan layanan, Aplikasi memproses informasi berikut hanya di perangkat Anda.</p>
+<h2>1. Informasi yang diproses</h2>
+<p>Catatan parkir dan foto terutama disimpan di perangkat Anda. Pengembang tidak mengoperasikan server terpisah untuk mengunggah catatan parkir. Namun, data dapat dikirim keluar perangkat melalui layanan eksternal dan pencadangan sistem operasi yang dijelaskan di bawah.</p>
 <table>
 <thead><tr><th scope="col">Informasi</th><th scope="col">Tujuan</th><th scope="col">Lokasi penyimpanan</th></tr></thead>
-<tbody><tr><td>Informasi lokasi (GPS)</td><td>Menyimpan lokasi parkir secara otomatis dan menampilkannya di peta</td><td>Database lokal di perangkat</td></tr>
+<tbody><tr><td>Koordinat, alamat, lantai, dan waktu parkir</td><td>Menyimpan dan melihat lokasi parkir serta menampilkan widget</td><td>Database perangkat</td></tr>
 <tr><td>Informasi perangkat Bluetooth (nama dan alamat MAC)</td><td>Mencatat parkir secara otomatis dengan mendeteksi koneksi dan terputusnya Bluetooth mobil</td><td>Database lokal di perangkat</td></tr>
 <tr><td>Foto dari kamera</td><td>Menyimpan foto lokasi parkir saat pengguna memilih untuk mengambil foto</td><td>Penyimpanan perangkat</td></tr>
+<tr><td>Setelan aplikasi, status penghapusan iklan dan reward</td><td>Mempertahankan preferensi dan menerapkan manfaat</td><td>Penyimpanan setelan perangkat</td></tr>
 </tbody></table>
 <h2>2. Tujuan pengumpulan dan penggunaan</h2>
 <ul>
@@ -32,41 +33,48 @@ th { background-color: #f5f5f5; }
 <li>Menampilkan lokasi parkir di peta untuk membantu pengguna menemukan mobil</li>
 <li>Mencatat lantai parkir dan foto</li>
 <li>Menampilkan informasi parkir melalui widget di layar utama</li>
+<li>Penayangan iklan, pembelian penghapusan iklan dan reward, analisis penggunaan dan error, serta pemberitahuan dan informasi pembaruan</li>
 </ul>
-<h2>3. Penyimpanan dan penghapusan data</h2>
+<h2>3. Penyimpanan, penghapusan, dan pencadangan</h2>
 <ul>
-<li>Semua data hanya disimpan di perangkat pengguna dan tidak dikirim ke server eksternal.</li>
-<li>Riwayat parkir dihapus secara otomatis setelah masa penyimpanan yang dipilih pengguna (7 hari hingga 1 tahun) berakhir.</li>
-<li>Menghapus instalasi Aplikasi akan langsung menghapus semua data.</li>
+<li>Catatan parkir saat ini disimpan sampai Anda menghapusnya atau catatan baru menggantikannya untuk kendaraan yang sama. Foto dibersihkan saat diganti atau catatannya dihapus; foto yang tidak lagi dirujuk juga dapat dihapus saat Aplikasi dibuka.</li>
+<li>Jika riwayat parkir diaktifkan, entri yang melewati jangka waktu pilihan Anda (7, 30, 90, atau 365 hari; default 30 hari) dihapus saat entri riwayat berikutnya disimpan, bukan tepat ketika masa tersebut berakhir. Anda juga dapat menghapus seluruhnya di layar riwayat.</li>
+<li>Aplikasi mengizinkan pencadangan Android dan tidak secara khusus mengecualikan database parkir, setelan, atau foto khusus aplikasi. Bergantung pada perangkat, akun, setelan pencadangan, dan batas sistem operasi, data ini dapat disertakan dalam cadangan cloud atau transfer antarperangkat serta dipulihkan setelah pemasangan ulang atau pergantian perangkat. Pengembang tidak dapat langsung mengakses atau menghapus cadangan sistem operasi tersebut.</li>
+<li>Menghapus instalasi Aplikasi atau menghapus datanya melalui setelan perangkat akan menghapus data Aplikasi pada perangkat itu. Tindakan ini tidak sekaligus menghapus cadangan yang sudah ada, data yang telah diterima layanan eksternal, atau riwayat pembelian Google Play. Kelola cadangan secara terpisah melalui setelan perangkat atau akun.</li>
+<li>Data layanan eksternal ditangani sesuai kebijakan penyimpanan dan setelan yang berlaku pada setiap layanan. Crashlytics menyimpan jejak kerusakan dan ID terkait selama 90 hari sebelum memulai proses penghapusan. Masa penyimpanan data analitik, iklan, pembelian, dan akses bergantung pada layanan serta jenis data, dan terpisah dari masa penyimpanan riwayat parkir.</li>
 </ul>
-<h2>4. Layanan pihak ketiga</h2>
-<p>Aplikasi tidak memberikan informasi pribadi Anda kepada pihak ketiga. Namun, layanan berikut dapat mengumpulkan data sesuai dengan kebijakan privasi masing-masing.</p>
+<h2>4. Layanan eksternal dan transfer data</h2>
+<p>Layanan berikut memproses data saat fiturnya dijalankan, termasuk ID dan informasi diagnostik yang dikumpulkan otomatis oleh SDK. Karena itu, kami tidak menyatakan bahwa semua data bersifat anonim. Bergantung pada penyedia dan setelan, pemrosesan dapat dilakukan di luar negara tempat tinggal Anda, termasuk Amerika Serikat. Kebijakan penyedia menjelaskan penyimpanan, transfer, dan penghapusan data.</p>
 <ul>
-<li><strong dir="ltr">Google AdMob</strong> — Mengumpulkan ID iklan untuk menayangkan iklan (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Kebijakan Privasi Google</a>)</li>
-<li><strong dir="ltr">Firebase Crashlytics</strong> — Mengumpulkan log kerusakan untuk menganalisis error aplikasi, tanpa informasi yang dapat mengidentifikasi pribadi</li>
-<li><strong dir="ltr">Firebase Analytics</strong> — Mengumpulkan statistik penggunaan anonim, seperti jenis sinyal Bluetooth dan waktu respons, tanpa informasi yang dapat mengidentifikasi pribadi</li>
-<li><strong dir="ltr">Google Play</strong> — Memproses pembelian dalam aplikasi untuk menghapus iklan</li>
+<li><strong dir="ltr">Google AdMob</strong> — Memproses alamat IP (yang dapat menunjukkan perkiraan wilayah), ID iklan dan aplikasi, tayangan, klik serta interaksi iklan, dan diagnostik untuk menayangkan serta mengukur iklan dan mencegah penipuan. ID yang tersedia dan pemrosesannya bergantung pada setelan perangkat dan iklan. (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Kebijakan Privasi Google</a>)</li>
+<li><strong dir="ltr">Firebase Crashlytics</strong> — Mengirim ID instalasi, informasi perangkat, OS dan aplikasi, stack trace kerusakan, pengecualian, serta log diagnostik ke Google untuk menganalisis error. Jika pengambilan lokasi gagal, alamat MAC Bluetooth kendaraan dapat disertakan dalam log error. (<a href="https://firebase.google.com/support/privacy">Firebase</a>)</li>
+<li><strong dir="ltr">Firebase Analytics</strong> — Google memproses ID instance aplikasi dan iklan, informasi perangkat, perkiraan wilayah, serta peristiwa penggunaan. Aplikasi juga mengirim jenis sinyal putusnya Bluetooth (HFP, A2DP, ACL) dan waktu hingga popup ditampilkan. Peristiwa kustom ini tidak berisi koordinat parkir, foto, nama kendaraan, atau alamat MAC.</li>
+<li><strong dir="ltr">Google Play</strong> — Google Play menangani pembelian. Aplikasi memeriksa status dan token pembelian serta mengonfirmasi pembelian untuk menerapkan atau memulihkan penghapusan iklan. Pengembang tidak menerima langsung detail metode pembayaran seperti nomor kartu. Penghapusan iklan tidak menghentikan seluruh analitik, pelaporan error, atau pencadangan.</li>
+<li><strong dir="ltr">GitHub</strong> — Mengambil pemberitahuan, tips, dan informasi versi dari GitHub atau membuka kebijakan ini mengirim alamat IP dan informasi permintaan ke penyedia hosting. Memuat gambar pemberitahuan jarak jauh atau membuka tautan juga mengirim informasi akses ke server terkait. Permintaan konfigurasi pemberitahuan tidak menyertakan database parkir atau foto. (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>)</li>
+<li><strong dir="ltr">Android / Google Play services</strong> — Dengan izin lokasi, Aplikasi memperoleh koordinat melalui Google Play services dan mencari alamat melalui Android Geocoder. Koordinat dan bahasa dapat dikirim ke penyedia layanan konversi koordinat menjadi alamat pada perangkat. Pemrosesannya bergantung pada layanan lokasi dan setelan perangkat.</li>
+<li><strong dir="ltr">Maps</strong> — Saat Anda membuka lokasi parkir di peta, Aplikasi meneruskan koordinat dan nama tampilan ke aplikasi peta pilihan, seperti Google Maps, NAVER Map, KakaoMap, atau TMAP. Pemrosesan selanjutnya mengikuti kebijakan layanan tersebut.</li>
 </ul>
 <h2>5. Izin aplikasi</h2>
 <table>
-<thead><tr><th scope="col">Izin</th><th scope="col">Tujuan</th><th scope="col">Kebutuhan</th></tr></thead>
-<tbody><tr><td>Lokasi (presisi/latar belakang)</td><td>Menyimpan lokasi GPS secara otomatis saat parkir</td><td>Wajib</td></tr>
-<tr><td>Bluetooth (koneksi/pemindaian)</td><td>Mendeteksi koneksi Bluetooth mobil</td><td>Wajib</td></tr>
-<tr><td>Kamera</td><td>Mengambil foto lokasi parkir</td><td>Opsional</td></tr>
-<tr><td>Notifikasi</td><td>Menampilkan notifikasi saat parkir terdeteksi</td><td>Opsional</td></tr>
-<tr><td>Tampilkan di atas aplikasi lain</td><td>Menampilkan pop-up parkir</td><td>Opsional</td></tr>
+<thead><tr><th scope="col">Izin</th><th scope="col">Tujuan</th><th scope="col">Jika ditolak</th></tr></thead>
+<tbody><tr><td>Lokasi (presisi/latar belakang)</td><td>Menyimpan lokasi GPS secara otomatis saat parkir</td><td>Penyimpanan lokasi otomatis terbatas.</td></tr>
+<tr><td>Bluetooth (koneksi/pemindaian)</td><td>Mendeteksi koneksi Bluetooth mobil</td><td>Deteksi otomatis kendaraan terbatas.</td></tr>
+<tr><td>Kamera</td><td>Mengambil foto lokasi parkir</td><td>Tidak dapat mengambil foto.</td></tr>
+<tr><td>Notifikasi</td><td>Menampilkan notifikasi saat parkir terdeteksi</td><td>Notifikasi terbatas.</td></tr>
+<tr><td>Tampilkan di atas aplikasi lain</td><td>Menampilkan pop-up parkir</td><td>Popup mungkin terbatas.</td></tr>
 </tbody></table>
-<h2>6. Hak pengguna</h2>
+<h2>6. Pilihan dan hak Anda</h2>
 <ul>
-<li>Anda dapat menghapus catatan parkir sendiri melalui setelan Aplikasi.</li>
-<li>Anda dapat mengubah atau mencabut izin Aplikasi kapan saja melalui setelan perangkat.</li>
-<li>Menghapus instalasi Aplikasi akan menghapus seluruh data yang tersimpan secara menyeluruh.</li>
+<li>Anda dapat menghapus catatan parkir di layar utama, atau menonaktifkan penyimpanan riwayat dan menghapus seluruh riwayat di layar riwayat. Menonaktifkan penyimpanan saja tidak menghapus entri yang sudah ada.</li>
+<li>Anda dapat mengubah atau mencabut izin lokasi, Bluetooth, kamera, dan izin lainnya melalui setelan perangkat; fitur terkait dapat menjadi terbatas. ID iklan dan cadangan juga dapat dikelola melalui setelan perangkat atau akun.</li>
+<li>Aplikasi tidak memiliki sakelar terpisah untuk menonaktifkan analitik atau pelaporan error. Menghapus ID iklan atau membeli penghapusan iklan tidak menghentikan seluruh pemrosesan data eksternal. Untuk data layanan eksternal, gunakan kontrol privasi penyedia atau hubungi kami di bawah.</li>
+<li>Hubungi alamat email di bawah untuk meminta akses, koreksi, penghapusan, atau pembatasan pemrosesan. Kami meninjau permintaan sesuai hukum yang berlaku. Pengembang tidak dapat mengakses dari jarak jauh catatan yang hanya tersimpan di perangkat; hapus catatan tersebut melalui Aplikasi atau setelan perangkat.</li>
 </ul>
 <h2>7. Kontak terkait privasi</h2>
 <ul><li>Pengembang: <bdi>LazyWorks</bdi></li>
 <li>Email: <a href="mailto:c.lazy.works@gmail.com" dir="ltr">c.lazy.works@gmail.com</a></li></ul>
 <h2>8. Perubahan kebijakan</h2>
-<p>Jika kebijakan ini berubah, kami akan memberi tahu Anda melalui pengumuman di dalam Aplikasi atau di halaman ini.</p>
-<p class="date">Tanggal berlaku: 4 April 2026</p>
+<p>Perubahan diumumkan di Aplikasi atau halaman ini. Revisi ini memperjelas transfer ke layanan eksternal, alamat Bluetooth dalam log error, pencadangan, pemulihan, dan waktu penghapusan yang sebenarnya. Fitur yang tersedia dapat berbeda menurut versi yang terpasang.</p>
+<p class="date">Berlaku dan terakhir diperbarui: 9 November 2026</p>
 </body>
 </html>

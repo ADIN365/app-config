@@ -18,13 +18,14 @@ th { background-color: #f5f5f5; }
 <body>
 <h1>停车位置 — 隐私政策</h1>
 <p>LazyWorks（以下简称“开发者”）重视“停车位置”应用（以下简称“本应用”）用户的个人信息，并依据大韩民国《个人信息保护法》制定本隐私政策。</p>
-<h2>1. 收集的个人信息</h2>
-<p>为提供服务，本应用仅在您的设备内处理以下信息。</p>
+<h2>1. 处理的信息</h2>
+<p>停车记录和照片主要保存在设备内。开发者不运营用于上传停车记录的独立服务器，但下述外部服务及操作系统备份可能将数据传输到设备之外。</p>
 <table>
 <thead><tr><th scope="col">信息类型</th><th scope="col">用途</th><th scope="col">存储位置</th></tr></thead>
-<tbody><tr><td>位置信息（GPS）</td><td>自动保存停车位置并在地图上显示</td><td>设备本地数据库</td></tr>
+<tbody><tr><td>坐标、地址、楼层及停车时间</td><td>保存和查看停车位置、显示小组件</td><td>设备内数据库</td></tr>
 <tr><td>蓝牙设备信息（名称、MAC地址）</td><td>通过检测车辆蓝牙的连接与断开，自动记录停车信息</td><td>设备本地数据库</td></tr>
 <tr><td>相机拍摄的照片</td><td>在用户选择拍照时保存停车位置照片</td><td>设备存储空间</td></tr>
+<tr><td>应用设置、广告移除及奖励状态</td><td>保留偏好设置并应用权益</td><td>设备设置存储</td></tr>
 </tbody></table>
 <h2>2. 收集和使用个人信息的目的</h2>
 <ul>
@@ -32,41 +33,48 @@ th { background-color: #f5f5f5; }
 <li>在地图上显示停车位置，帮助用户找到车辆</li>
 <li>记录停车楼层和照片</li>
 <li>通过主屏幕小组件显示停车信息</li>
+<li>广告投放、广告移除购买和奖励处理、使用情况及错误分析、通知和更新信息提供</li>
 </ul>
-<h2>3. 信息的保存与删除</h2>
+<h2>3. 保存、删除及备份</h2>
 <ul>
-<li>所有数据仅保存在用户的设备内，不会传输至外部服务器。</li>
-<li>停车历史记录将在用户设置的保存期限（7天至1年）过后自动删除。</li>
-<li>卸载本应用后，所有数据将立即删除。</li>
+<li>当前停车记录会保留至用户删除，或被同一车辆的新记录替换。照片会在替换或删除对应记录时清理；应用启动时也可能清理不再被记录引用的照片。</li>
+<li>启用停车历史记录后，超过所选保存期限（7、30、90或365天，默认30天）的记录会在下次保存历史记录时清理，并非到期立即删除。用户也可在历史记录页面全部删除。</li>
+<li>本应用允许Android备份，未对停车数据库、设置或应用专用照片设置单独的排除规则。根据设备、账号、备份设置及操作系统容量限制等，这些数据可能被纳入云备份或设备间传输，并在重新安装或更换设备后恢复。开发者无法直接查看或删除这些操作系统备份。</li>
+<li>卸载应用或在设备设置中清除应用数据，会删除该设备上的应用数据，但不会同时立即删除已有备份、外部服务已接收的数据或Google Play购买记录。请在设备或账号设置中另行管理备份。</li>
+<li>外部服务数据按照各服务的保存政策和适用设置处理。Crashlytics保存崩溃跟踪信息及相关标识符90天后开始删除流程。分析、广告、购买及访问记录的保存期限因服务和数据类型而异，与本应用的停车历史记录保存期限不同。</li>
 </ul>
-<h2>4. 第三方服务</h2>
-<p>本应用不会向第三方提供您的个人信息。但以下服务可能依据各自的隐私政策收集数据。</p>
+<h2>4. 外部服务及数据传输</h2>
+<p>以下服务会在相关功能运行时处理数据，其中包括SDK自动收集的标识符和诊断信息，因此不能保证所有数据均为匿名数据。根据服务提供商和设置，数据可能在美国等用户居住国以外的地区处理。保存、传输及删除方式请参阅各提供商的政策。</p>
 <ul>
-<li><strong dir="ltr">Google AdMob</strong> — 收集广告标识符以提供广告 (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google隐私政策</a>)</li>
-<li><strong dir="ltr">Firebase Crashlytics</strong> — 收集崩溃日志以分析应用错误（不含可识别个人身份的信息）</li>
-<li><strong dir="ltr">Firebase Analytics</strong> — 收集蓝牙信号类型、响应时间等匿名应用使用统计数据，不含可识别个人身份的信息</li>
-<li><strong dir="ltr">Google Play</strong> — 处理用于移除广告的应用内购买</li>
+<li><strong dir="ltr">Google AdMob</strong> — 为投放广告、衡量效果和防范欺诈，处理IP地址（可能用于推测大致地区）、广告及应用标识符、广告展示和点击等互动信息及诊断信息。可用标识符和处理方式取决于设备及广告设置。 (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google隐私政策</a>)</li>
+<li><strong dir="ltr">Firebase Crashlytics</strong> — 为分析故障，向Google发送安装标识符、设备、操作系统及应用信息、崩溃堆栈、异常和诊断日志。获取位置失败时，错误日志中可能包含车辆的Bluetooth MAC地址。 (<a href="https://firebase.google.com/support/privacy">Firebase</a>)</li>
+<li><strong dir="ltr">Firebase Analytics</strong> — Google处理应用实例及广告标识符、设备信息、大致地区及使用事件。本应用还发送Bluetooth断开信号类型（HFP、A2DP、ACL）及弹窗显示前的耗时。这些自定义事件不包含停车坐标、照片、车辆名称或MAC地址。</li>
+<li><strong dir="ltr">Google Play</strong> — Google Play处理购买。本应用查询购买状态及令牌、确认购买，以应用或恢复广告移除权益。开发者不直接接收卡号等支付方式信息。移除广告是一项广告展示权益，并不停止所有分析、错误报告或备份。</li>
+<li><strong dir="ltr">GitHub</strong> — 从GitHub获取通知、提示和版本信息或打开本政策时，IP地址及请求信息会发送给托管服务商。加载远程通知图片或打开链接时，也会向相应服务器发送访问信息。通知配置请求不会附带停车数据库或照片。 (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>)</li>
+<li><strong dir="ltr">Android / Google Play services</strong> — 获得位置权限后，本应用通过Google Play services获取坐标，并通过Android Geocoder查询地址。地址转换时，坐标及语言可能发送给设备的地址转换服务商。具体处理取决于设备的位置服务及设置。</li>
+<li><strong dir="ltr">Maps</strong> — 用户选择在地图中查看位置时，本应用向所选地图应用（如Google Maps、NAVER Map、KakaoMap或TMAP）传递停车坐标及显示名称。后续处理遵循相应地图服务的政策。</li>
 </ul>
 <h2>5. 应用权限</h2>
 <table>
-<thead><tr><th scope="col">权限</th><th scope="col">用途</th><th scope="col">是否必需</th></tr></thead>
-<tbody><tr><td>位置（精确位置／后台位置）</td><td>停车时自动保存GPS位置</td><td>必需</td></tr>
-<tr><td>蓝牙（连接／扫描）</td><td>检测车辆蓝牙连接</td><td>必需</td></tr>
-<tr><td>相机</td><td>拍摄停车位置照片</td><td>可选</td></tr>
-<tr><td>通知</td><td>检测到停车时显示通知</td><td>可选</td></tr>
-<tr><td>在其他应用上层显示</td><td>显示停车弹窗</td><td>可选</td></tr>
+<thead><tr><th scope="col">权限</th><th scope="col">用途</th><th scope="col">拒绝后的影响</th></tr></thead>
+<tbody><tr><td>位置（精确位置／后台位置）</td><td>停车时自动保存GPS位置</td><td>自动位置保存受限。</td></tr>
+<tr><td>蓝牙（连接／扫描）</td><td>检测车辆蓝牙连接</td><td>基于车辆的自动检测受限。</td></tr>
+<tr><td>相机</td><td>拍摄停车位置照片</td><td>无法拍照。</td></tr>
+<tr><td>通知</td><td>检测到停车时显示通知</td><td>通知显示受限。</td></tr>
+<tr><td>在其他应用上层显示</td><td>显示停车弹窗</td><td>弹窗显示可能受限。</td></tr>
 </tbody></table>
-<h2>6. 用户权利</h2>
+<h2>6. 用户的选择和权利</h2>
 <ul>
-<li>您可以在应用设置中自行删除停车记录。</li>
-<li>您可以随时在设备设置中更改或撤销应用权限。</li>
-<li>卸载本应用后，所有已保存的数据将被完全删除。</li>
+<li>可在主页面删除停车记录，在历史记录页面关闭记录保存或全部删除历史记录。仅关闭保存功能不会删除已有记录。</li>
+<li>可在设备设置中更改或撤回位置、Bluetooth、相机等权限，这可能限制相关功能。广告ID及备份也可在设备或账号设置中管理。</li>
+<li>应用内没有单独关闭分析或错误报告的开关。删除广告ID或购买广告移除权益不会停止所有外部数据处理。有关外部服务数据，可使用提供商的隐私管理功能或通过下方联系方式咨询。</li>
+<li>如需请求访问、更正、删除个人信息或限制处理，请联系下方邮箱。我们将依据适用法律审查请求。开发者无法远程访问仅存于设备的记录，请通过应用或设备设置自行删除。</li>
 </ul>
 <h2>7. 隐私事务联系方式</h2>
 <ul><li>开发者: <bdi>LazyWorks</bdi></li>
 <li>电子邮箱: <a href="mailto:c.lazy.works@gmail.com" dir="ltr">c.lazy.works@gmail.com</a></li></ul>
 <h2>8. 隐私政策变更</h2>
-<p>本政策如有变更，我们将通过应用内通知或本页面告知您。</p>
-<p class="date">生效日期：2026年4月4日</p>
+<p>政策变更会通过应用通知或本页面告知。本次修订明确了外部服务传输、错误日志中的Bluetooth地址、备份与恢复及实际删除时间。可用功能可能因已安装的应用版本而异。</p>
+<p class="date">生效及最后修订日期：2026年11月9日</p>
 </body>
 </html>

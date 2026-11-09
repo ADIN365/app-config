@@ -18,13 +18,14 @@ th { background-color: #f5f5f5; }
 <body>
 <h1>Hanapin ang Kotse Ko — Patakaran sa Privacy</h1>
 <p>Pinahahalagahan ng LazyWorks (ang ‘Developer’) ang privacy ng mga gumagamit ng Hanapin ang Kotse Ko (ang ‘App’). Inilalahad ang patakarang ito alinsunod sa Personal Information Protection Act ng Republika ng Korea.</p>
-<h2>1. Personal na impormasyong kinokolekta</h2>
-<p>Para maibigay ang mga serbisyo nito, pinoproseso ng App ang sumusunod na impormasyon sa iyong device lamang.</p>
+<h2>1. Impormasyong pinoproseso</h2>
+<p>Pangunahing nakaimbak sa iyong device ang mga tala ng pagparada at larawan. Walang hiwalay na server ang Developer para mag-upload ng mga tala ng pagparada. Gayunman, maaaring maipadala ang data sa labas ng device sa pamamagitan ng mga panlabas na serbisyo at backup ng operating system na inilalarawan sa ibaba.</p>
 <table>
 <thead><tr><th scope="col">Impormasyon</th><th scope="col">Layunin</th><th scope="col">Lokasyon ng imbakan</th></tr></thead>
-<tbody><tr><td>Impormasyon ng lokasyon (GPS)</td><td>Awtomatikong pag-save ng lokasyon ng paradahan at pagpapakita nito sa mapa</td><td>Lokal na database sa device</td></tr>
+<tbody><tr><td>Coordinate, address, palapag at oras ng pagparada</td><td>I-save at tingnan ang lokasyon at ipakita sa widget</td><td>Database sa device</td></tr>
 <tr><td>Impormasyon ng Bluetooth device (pangalan at MAC address)</td><td>Awtomatikong pagtatala ng pagparada sa pamamagitan ng pagtukoy sa pagkonekta at pagkadiskonekta ng Bluetooth ng kotse</td><td>Lokal na database sa device</td></tr>
 <tr><td>Mga larawang kuha sa camera</td><td>Pag-save ng mga larawan ng pinagparadahan kapag pinili ng gumagamit na kumuha ng larawan</td><td>Storage ng device</td></tr>
+<tr><td>Mga setting, status ng pag-alis ng ad at reward</td><td>Panatilihin ang mga pinili at ipatupad ang benepisyo</td><td>Storage ng mga setting sa device</td></tr>
 </tbody></table>
 <h2>2. Layunin ng pagkolekta at paggamit</h2>
 <ul>
@@ -32,41 +33,48 @@ th { background-color: #f5f5f5; }
 <li>Pagpapakita ng lokasyon ng paradahan sa mapa para makatulong sa paghahanap ng kotse</li>
 <li>Pagtatala ng palapag ng paradahan at mga larawan</li>
 <li>Pagpapakita ng impormasyon ng paradahan sa mga widget sa home screen</li>
+<li>Paghahatid ng ad, pagbili ng pag-alis ng ad at reward, pagsusuri ng paggamit at error, at pagbibigay ng abiso at update</li>
 </ul>
-<h2>3. Pagpapanatili at pagbura ng data</h2>
+<h2>3. Pagpapanatili, pagbura at backup</h2>
 <ul>
-<li>Ang lahat ng data ay nakaimbak lamang sa device ng gumagamit at hindi ipinapadala sa mga external server.</li>
-<li>Awtomatikong binubura ang kasaysayan ng pagparada kapag lumipas na ang piniling panahon ng pagpapanatili (7 araw hanggang 1 taon).</li>
-<li>Agad na mabubura ang lahat ng data kapag in-uninstall ang App.</li>
+<li>Nananatili ang kasalukuyang tala ng pagparada hanggang burahin mo ito o palitan ng bagong tala para sa parehong sasakyan. Nililinis ang mga larawan kapag pinalitan o binura ang kaugnay na tala; maaari ring burahin sa pagbukas ng App ang mga larawang hindi na ginagamit ng anumang tala.</li>
+<li>Kapag naka-on ang kasaysayan ng pagparada, binubura ang mga entry na lampas sa piniling panahon (7, 30, 90 o 365 araw; default: 30) sa susunod na pag-save ng entry, hindi kaagad sa paglipas ng takdang panahon. Maaari mo ring burahin ang lahat sa screen ng kasaysayan.</li>
+<li>Pinapayagan ng App ang Android backup at walang hiwalay na pagbubukod para sa database ng pagparada, mga setting o larawang nasa sariling storage ng app. Depende sa device, account, mga setting ng backup at limitasyon ng operating system, maaaring maisama ang mga ito sa cloud backup o paglilipat ng device at maibalik matapos muling i-install o magpalit ng device. Hindi direktang maa-access o mabubura ng Developer ang mga backup na ito ng operating system.</li>
+<li>Ang pag-uninstall o pag-clear ng data sa mga setting ng device ay nagbubura ng data ng App sa device na iyon. Hindi nito sabay na binubura ang mga nagawang backup, data na natanggap na ng panlabas na serbisyo, o rekord ng pagbili sa Google Play. Pamahalaan nang hiwalay ang mga backup sa mga setting ng device o account.</li>
+<li>Ang data ng panlabas na serbisyo ay saklaw ng patakaran sa pagpapanatili at naaangkop na mga setting ng bawat serbisyo. Pinapanatili ng Crashlytics ang mga bakas ng pag-crash at kaugnay na identifier sa loob ng 90 araw bago simulan ang pagbura. Nag-iiba ang tagal ng pagpapanatili ng analytics, ad, pagbili at access record ayon sa serbisyo at uri ng data, at hiwalay ito sa panahon ng kasaysayan ng pagparada.</li>
 </ul>
-<h2>4. Mga serbisyo ng third party</h2>
-<p>Hindi ibinibigay ng App ang iyong personal na impormasyon sa mga third party. Gayunman, maaaring mangolekta ng data ang mga sumusunod na serbisyo alinsunod sa kani-kanilang patakaran sa privacy.</p>
+<h2>4. Panlabas na serbisyo at paglilipat ng data</h2>
+<p>Pinoproseso ng mga serbisyong ito ang data kapag gumagana ang kaugnay na feature, kabilang ang mga identifier at diagnostic information na awtomatikong kinokolekta ng SDK. Kaya hindi namin sinasabing anonymous ang lahat ng data. Depende sa provider at mga setting, maaaring iproseso ang data sa labas ng iyong bansa, kabilang ang Estados Unidos. Ipinaliliwanag ng mga patakaran ng provider ang pagpapanatili, paglilipat at pagbura.</p>
 <ul>
-<li><strong dir="ltr">Google AdMob</strong> — Nangongolekta ng mga advertising identifier para magpakita ng mga ad (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Patakaran sa Privacy ng Google</a>)</li>
-<li><strong dir="ltr">Firebase Crashlytics</strong> — Nangongolekta ng mga crash log para suriin ang mga error ng app, nang walang impormasyong nagpapakilala sa isang indibidwal</li>
-<li><strong dir="ltr">Firebase Analytics</strong> — Nangongolekta ng anonymous na istatistika ng paggamit, gaya ng uri ng Bluetooth signal at oras ng pagtugon, nang walang impormasyong nagpapakilala sa isang indibidwal</li>
-<li><strong dir="ltr">Google Play</strong> — Nagpoproseso ng mga pagbili sa loob ng app para alisin ang mga ad</li>
+<li><strong dir="ltr">Google AdMob</strong> — Pinoproseso ang IP address (na maaaring gamitin upang tantiyahin ang pangkalahatang lokasyon), ad at app identifier, panonood, pag-click at iba pang pakikipag-ugnayan sa ad, at diagnostics para maghatid at sukatin ang mga ad at maiwasan ang pandaraya. Nakasalalay sa mga setting ng device at ad ang magagamit na identifier at pagproseso. (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Patakaran sa Privacy ng Google</a>)</li>
+<li><strong dir="ltr">Firebase Crashlytics</strong> — Nagpapadala sa Google ng installation identifier, impormasyon ng device, OS at app, crash stack, exception at diagnostic log para suriin ang mga error. Kapag nabigong kumuha ng lokasyon, maaaring kasama sa error log ang Bluetooth MAC address ng sasakyan. (<a href="https://firebase.google.com/support/privacy">Firebase</a>)</li>
+<li><strong dir="ltr">Firebase Analytics</strong> — Pinoproseso ng Google ang app-instance at ad identifier, impormasyon ng device, tinatayang lokasyon at mga event ng paggamit. Ipinapadala rin ng App ang uri ng signal ng pagkaputol ng Bluetooth (HFP, A2DP, ACL) at oras bago lumabas ang popup. Hindi kasama sa mga custom event na ito ang coordinate ng pagparada, larawan, pangalan ng sasakyan o MAC address.</li>
+<li><strong dir="ltr">Google Play</strong> — Google Play ang humahawak sa mga pagbili. Tinitingnan ng App ang status at token ng pagbili at kinukumpirma ito upang ipatupad o ibalik ang pag-alis ng ad. Hindi direktang natatanggap ng Developer ang detalye ng paraan ng pagbabayad, gaya ng numero ng card. Hindi pinatitigil ng pag-alis ng ad ang lahat ng analytics, error reporting o backup.</li>
+<li><strong dir="ltr">GitHub</strong> — Kapag kumukuha ng abiso, tip at impormasyon ng bersyon mula sa GitHub o binubuksan ang patakarang ito, ipinapadala ang IP address at impormasyon ng request sa hosting provider. Ang pag-load ng larawan ng abiso o pagbukas ng link ay nagpapadala rin ng impormasyon ng access sa kaugnay na server. Hindi ikinakabit ang database ng pagparada o mga larawan sa request para sa configuration ng abiso. (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>)</li>
+<li><strong dir="ltr">Android / Google Play services</strong> — Gamit ang pahintulot sa lokasyon, kumukuha ang App ng coordinate sa pamamagitan ng Google Play services at naghahanap ng address gamit ang Android Geocoder. Maaaring maipadala ang coordinate at wika sa provider ng device na nagko-convert ng coordinate sa address. Nakasalalay ang pagproseso sa mga serbisyo sa lokasyon at setting ng device.</li>
+<li><strong dir="ltr">Maps</strong> — Kapag binuksan mo sa mapa ang lokasyon ng pagparada, ipinapasa ng App ang coordinate at pangalang ipapakita sa napiling map app, gaya ng Google Maps, NAVER Map, KakaoMap o TMAP. Ang susunod na pagproseso ay sumusunod sa patakaran ng serbisyong iyon.</li>
 </ul>
 <h2>5. Mga pahintulot ng app</h2>
 <table>
-<thead><tr><th scope="col">Pahintulot</th><th scope="col">Layunin</th><th scope="col">Kinakailangan ba?</th></tr></thead>
-<tbody><tr><td>Lokasyon (tumpak/background)</td><td>Awtomatikong pag-save ng lokasyon ng GPS kapag pumarada</td><td>Kinakailangan</td></tr>
-<tr><td>Bluetooth (pagkonekta/pag-scan)</td><td>Pagtukoy sa koneksyon ng Bluetooth ng kotse</td><td>Kinakailangan</td></tr>
-<tr><td>Camera</td><td>Pagkuha ng larawan ng pinagparadahan</td><td>Opsyonal</td></tr>
-<tr><td>Mga notification</td><td>Pagpapakita ng notification kapag natukoy ang pagparada</td><td>Opsyonal</td></tr>
-<tr><td>Ipakita sa ibabaw ng ibang app</td><td>Pagpapakita ng pop-up ng paradahan</td><td>Opsyonal</td></tr>
+<thead><tr><th scope="col">Pahintulot</th><th scope="col">Layunin</th><th scope="col">Kapag tinanggihan</th></tr></thead>
+<tbody><tr><td>Lokasyon (tumpak/background)</td><td>Awtomatikong pag-save ng lokasyon ng GPS kapag pumarada</td><td>Limitado ang awtomatikong pag-save ng lokasyon.</td></tr>
+<tr><td>Bluetooth (pagkonekta/pag-scan)</td><td>Pagtukoy sa koneksyon ng Bluetooth ng kotse</td><td>Limitado ang awtomatikong pagtukoy batay sa sasakyan.</td></tr>
+<tr><td>Camera</td><td>Pagkuha ng larawan ng pinagparadahan</td><td>Hindi maaaring kumuha ng larawan.</td></tr>
+<tr><td>Mga notification</td><td>Pagpapakita ng notification kapag natukoy ang pagparada</td><td>Limitado ang mga notification.</td></tr>
+<tr><td>Ipakita sa ibabaw ng ibang app</td><td>Pagpapakita ng pop-up ng paradahan</td><td>Maaaring malimitahan ang popup.</td></tr>
 </tbody></table>
-<h2>6. Mga karapatan ng gumagamit</h2>
+<h2>6. Iyong mga pagpipilian at karapatan</h2>
 <ul>
-<li>Maaari mong burahin ang mga tala ng paradahan sa mga setting ng App.</li>
-<li>Maaari mong baguhin o bawiin ang mga pahintulot ng App anumang oras sa mga setting ng iyong device.</li>
-<li>Ganap na mabubura ang lahat ng nakaimbak na data kapag in-uninstall ang App.</li>
+<li>Maaari mong burahin ang tala ng pagparada sa main screen, o i-off ang pagtatala at burahin ang buong kasaysayan sa screen ng kasaysayan. Hindi nabubura ang mga dating entry kapag ini-off lang ang pagtatala.</li>
+<li>Maaari mong baguhin o bawiin ang pahintulot sa lokasyon, Bluetooth, camera at iba pa sa mga setting ng device; maaaring malimitahan ang kaugnay na feature. Maaari ring pamahalaan ang ad ID at backup sa mga setting ng device o account.</li>
+<li>Walang hiwalay na switch sa App para i-off ang analytics o error reporting. Hindi pinatitigil ng pagbura ng ad ID o pagbili ng pag-alis ng ad ang lahat ng panlabas na pagproseso ng data. Para sa data ng panlabas na serbisyo, gamitin ang privacy controls ng provider o makipag-ugnayan sa amin sa ibaba.</li>
+<li>Makipag-ugnayan sa email sa ibaba upang humiling ng access, pagwawasto, pagbura o paghihigpit sa pagproseso. Susuriin namin ang kahilingan ayon sa naaangkop na batas. Hindi maa-access nang malayuan ng Developer ang mga talang nasa device lamang; burahin ang mga ito sa App o mga setting ng device.</li>
 </ul>
 <h2>7. Makipag-ugnayan tungkol sa privacy</h2>
 <ul><li>Developer: <bdi>LazyWorks</bdi></li>
 <li>Email: <a href="mailto:c.lazy.works@gmail.com" dir="ltr">c.lazy.works@gmail.com</a></li></ul>
 <h2>8. Mga pagbabago sa patakarang ito</h2>
-<p>Kung magbago ang patakarang ito, ipapaalam namin ito sa pamamagitan ng anunsyo sa App o sa pahinang ito.</p>
-<p class="date">Petsa ng bisa: Abril 4, 2026</p>
+<p>Ipinababatid ang mga pagbabago sa App o sa pahinang ito. Nililinaw ng rebisyong ito ang paglilipat sa panlabas na serbisyo, Bluetooth address sa error log, backup, pagpapanumbalik at aktuwal na oras ng pagbura. Maaaring mag-iba ang mga feature ayon sa naka-install na bersyon.</p>
+<p class="date">Petsa ng bisa at huling pagbabago: Nobyembre 9, 2026</p>
 </body>
 </html>

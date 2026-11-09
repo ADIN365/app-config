@@ -18,13 +18,14 @@ th { background-color: #f5f5f5; }
 <body>
 <h1>Find My Car — Privacy Policy</h1>
 <p>LazyWorks (the ‘Developer’) respects the privacy of users of Find My Car (the ‘App’) and provides this Privacy Policy in accordance with the Republic of Korea’s Personal Information Protection Act.</p>
-<h2>1. Personal information we collect</h2>
-<p>The App processes the following information only on your device to provide its services.</p>
+<h2>1. Information we process</h2>
+<p>Parking records and photos are stored primarily on your device. The Developer does not operate a separate server for uploading parking records. However, data may leave your device through the external services and operating-system backups described below.</p>
 <table>
 <thead><tr><th scope="col">Information</th><th scope="col">Purpose</th><th scope="col">Storage location</th></tr></thead>
-<tbody><tr><td>Location information (GPS)</td><td>Automatically saving your parking location and displaying it on a map</td><td>Local database on your device</td></tr>
+<tbody><tr><td>Coordinates, address, floor and parking time</td><td>Save and view parking locations and display widgets</td><td>Device database</td></tr>
 <tr><td>Bluetooth device information (name and MAC address)</td><td>Automatically recording parking by detecting connections to and disconnections from your car’s Bluetooth</td><td>Local database on your device</td></tr>
 <tr><td>Camera photos</td><td>Saving photos of your parking spot when you choose to take them</td><td>Device storage</td></tr>
+<tr><td>App settings, ad-removal and reward status</td><td>Preserve preferences and apply benefits</td><td>Device settings storage</td></tr>
 </tbody></table>
 <h2>2. Purposes of collection and use</h2>
 <ul>
@@ -32,41 +33,48 @@ th { background-color: #f5f5f5; }
 <li>Showing your parking location on a map to help you find your car</li>
 <li>Recording the parking level and photos</li>
 <li>Displaying parking details in home screen widgets</li>
+<li>Advertising, ad-removal purchases and rewards, usage and error analysis, and notices and update information</li>
 </ul>
-<h2>3. Retention and deletion</h2>
+<h2>3. Retention, deletion and backups</h2>
 <ul>
-<li>All data is stored only on your device and is not sent to external servers.</li>
-<li>Parking history is automatically deleted after the retention period you select (7 days to 1 year).</li>
-<li>Uninstalling the App immediately deletes all data.</li>
+<li>Current parking records remain until you delete them or a new record replaces them for the same vehicle. Photos are cleaned up when replaced or their record is deleted; unreferenced photos may also be removed when the App starts.</li>
+<li>When parking history is enabled, entries older than your selected period (7, 30, 90 or 365 days; default: 30) are removed when the next history entry is saved, not immediately when the period expires. You can also delete all entries on the history screen.</li>
+<li>The App allows Android backup and does not specifically exclude its parking database, settings or app-specific photos. Depending on your device, account, backup settings and operating-system limits, these may be included in cloud backups or device transfers and restored after reinstallation or a device change. The Developer cannot directly access or delete these operating-system backups.</li>
+<li>Uninstalling the App or clearing its data in device settings removes the App’s data on that device. It does not immediately delete existing backups, data already received by external services or Google Play purchase records. Manage backups separately in your device or account settings.</li>
+<li>External-service data is handled under each service’s retention policies and applicable settings. Crashlytics retains crash traces and related identifiers for 90 days before starting deletion. Retention of analytics, advertising, purchase and access records varies by service and data type and is separate from the App’s parking-history period.</li>
 </ul>
-<h2>4. Third-party services</h2>
-<p>The App does not provide your personal information to third parties. However, the services below may collect data under their own privacy policies.</p>
+<h2>4. External services and data transfers</h2>
+<p>These services process data when their features run. This includes identifiers and diagnostics collected automatically by SDKs, so we do not claim that all data is anonymous. Depending on the provider and settings, processing may take place outside your country, including in the United States. Provider policies explain retention, transfers and deletion.</p>
 <ul>
-<li><strong dir="ltr">Google AdMob</strong> — Collects advertising identifiers to serve ads (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>)</li>
-<li><strong dir="ltr">Firebase Crashlytics</strong> — Collects crash logs to diagnose App errors (without personally identifying information)</li>
-<li><strong dir="ltr">Firebase Analytics</strong> — Collects anonymous App usage statistics, such as Bluetooth signal types and response times, without personally identifying information</li>
-<li><strong dir="ltr">Google Play</strong> — Processes in-app purchases for ad removal</li>
+<li><strong dir="ltr">Google AdMob</strong> — Processes IP addresses (which may indicate a general location), advertising and app identifiers, ad views, clicks and other interactions, and diagnostics to deliver and measure ads and prevent fraud. Available identifiers and processing depend on device and advertising settings. (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>)</li>
+<li><strong dir="ltr">Firebase Crashlytics</strong> — Sends installation identifiers, device, OS and app information, crash stacks, exceptions and diagnostic logs to Google for troubleshooting. If a location lookup fails, the vehicle’s Bluetooth MAC address may be included in an error log. (<a href="https://firebase.google.com/support/privacy">Firebase</a>)</li>
+<li><strong dir="ltr">Firebase Analytics</strong> — Google processes app-instance and advertising identifiers, device information, approximate location and usage events. The App also sends Bluetooth disconnection signal types (HFP, A2DP or ACL) and time to display the popup. These custom events do not contain parking coordinates, photos, vehicle names or MAC addresses.</li>
+<li><strong dir="ltr">Google Play</strong> — Google Play handles purchases. The App queries purchase status and tokens and acknowledges purchases to apply or restore ad removal. The Developer does not directly receive payment-method details such as card numbers. Ad removal is an advertising benefit; it does not stop all analytics, crash reporting or backups.</li>
+<li><strong dir="ltr">GitHub</strong> — Fetching notices, tips and version information from GitHub or opening this policy sends IP addresses and request information to the hosting provider. Loading remote notice images or opening links also sends access information to the relevant servers. The App does not attach the parking database or photos to notice-configuration requests. (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>)</li>
+<li><strong dir="ltr">Android / Google Play services</strong> — With location permission, the App obtains coordinates through Google Play services and requests addresses through Android Geocoder. Coordinates and language may be sent to the device’s geocoding provider. Processing depends on the device’s location services and settings.</li>
+<li><strong dir="ltr">Maps</strong> — When you open a parking location in a map, the App passes its coordinates and a display name to the selected map app, such as Google Maps, NAVER Map, KakaoMap or TMAP. Subsequent processing follows that service’s policy.</li>
 </ul>
 <h2>5. App permissions</h2>
 <table>
-<thead><tr><th scope="col">Permission</th><th scope="col">Purpose</th><th scope="col">Required?</th></tr></thead>
-<tbody><tr><td>Location (precise/background)</td><td>Automatically saving GPS coordinates when you park</td><td>Required</td></tr>
-<tr><td>Bluetooth (connect/scan)</td><td>Detecting your car’s Bluetooth connection</td><td>Required</td></tr>
-<tr><td>Camera</td><td>Taking photos of your parking spot</td><td>Optional</td></tr>
-<tr><td>Notifications</td><td>Showing a notification when parking is detected</td><td>Optional</td></tr>
-<tr><td>Display over other apps</td><td>Displaying the parking pop-up</td><td>Optional</td></tr>
+<thead><tr><th scope="col">Permission</th><th scope="col">Purpose</th><th scope="col">Effect if denied</th></tr></thead>
+<tbody><tr><td>Location (precise/background)</td><td>Automatically saving GPS coordinates when you park</td><td>Automatic location saving is limited.</td></tr>
+<tr><td>Bluetooth (connect/scan)</td><td>Detecting your car’s Bluetooth connection</td><td>Vehicle-based detection is limited.</td></tr>
+<tr><td>Camera</td><td>Taking photos of your parking spot</td><td>Taking photos is unavailable.</td></tr>
+<tr><td>Notifications</td><td>Showing a notification when parking is detected</td><td>Notifications are limited.</td></tr>
+<tr><td>Display over other apps</td><td>Displaying the parking pop-up</td><td>Popups may be limited.</td></tr>
 </tbody></table>
-<h2>6. Your rights</h2>
+<h2>6. Your choices and rights</h2>
 <ul>
-<li>You can delete parking records yourself in the App’s settings.</li>
-<li>You can change or revoke App permissions at any time in your device’s settings.</li>
-<li>Uninstalling the App completely deletes all stored data.</li>
+<li>Delete parking records on the main screen, or disable history recording and delete all history on the history screen. Turning off history recording does not itself delete existing entries.</li>
+<li>Change or revoke location, Bluetooth, camera and other permissions in device settings; this may limit related features. You can also manage advertising IDs and backups in device or account settings.</li>
+<li>The App has no separate switches to disable analytics or crash reporting. Deleting an advertising ID or purchasing ad removal does not stop all external data processing. For external-service data, use the provider’s privacy controls or contact us below.</li>
+<li>Contact the email address below to request access, correction, deletion or restriction of processing. We review requests under applicable law. The Developer cannot remotely access records stored only on your device; delete those through the App or device settings.</li>
 </ul>
 <h2>7. Privacy contact</h2>
 <ul><li>Developer: <bdi>LazyWorks</bdi></li>
 <li>Email: <a href="mailto:c.lazy.works@gmail.com" dir="ltr">c.lazy.works@gmail.com</a></li></ul>
 <h2>8. Changes to this policy</h2>
-<p>If this policy changes, we will notify you through an in-app announcement or on this page.</p>
-<p class="date">Effective date: April 4, 2026</p>
+<p>Changes are announced in the App or on this page. This revision clarifies external-service transfers, Bluetooth addresses in error logs, backup and restoration, and actual deletion timing. Available features may vary by installed App version.</p>
+<p class="date">Effective and last revised: November 9, 2026</p>
 </body>
 </html>

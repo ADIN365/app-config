@@ -1,85 +1,79 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>내차찾기 - 개인정보처리방침</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.8; color: #333; }
-        h1 { color: #2962FF; border-bottom: 2px solid #2962FF; padding-bottom: 10px; }
-        h2 { color: #1a1a1a; margin-top: 30px; }
-        table { width: 100%; border-collapse: collapse; margin: 10px 0; }
-        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-        th { background-color: #f5f5f5; }
-        .date { text-align: right; color: #666; margin-top: 40px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>내차찾기 개인정보처리방침</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.8; color: #333; overflow-wrap: anywhere; }
+h1 { color: #2962FF; border-bottom: 2px solid #2962FF; padding-bottom: 10px; }
+h2 { color: #1a1a1a; margin-top: 30px; }
+table { width: 100%; border-collapse: collapse; table-layout: fixed; margin: 10px 0; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: start; vertical-align: top; }
+th { background-color: #f5f5f5; }
+.date { text-align: end; color: #666; margin-top: 40px; }
+@media (max-width: 420px) { body { padding: 16px; } th, td { padding: 6px; } }
+</style>
 </head>
 <body>
-
 <h1>내차찾기 개인정보처리방침</h1>
-
-<p>LazyWorks(이하 "개발자")는 「내차찾기」 앱(이하 "앱") 이용자의 개인정보를 중요시하며, 「개인정보 보호법」에 따라 아래와 같이 개인정보처리방침을 안내합니다.</p>
-
-<h2>1. 수집하는 개인정보 항목</h2>
-<p>앱은 서비스 제공을 위해 다음 정보를 기기 내에서만 처리합니다.</p>
+<p>LazyWorks(이하 ‘개발자’)는 내차찾기 앱(이하 ‘앱’)에서 처리하는 개인정보와 이용자의 선택권을 다음과 같이 안내합니다.</p>
+<h2>1. 처리하는 정보</h2>
+<p>주차 기록과 사진은 기본적으로 기기에 저장합니다. 개발자가 운영하는 별도 주차 기록 업로드 서버는 없습니다. 다만 아래의 외부 서비스 이용과 운영체제 백업 과정에서는 데이터가 기기 밖으로 전송될 수 있습니다.</p>
 <table>
-    <tr><th>항목</th><th>목적</th><th>저장 위치</th></tr>
-    <tr><td>위치 정보 (GPS)</td><td>주차 위치 자동 저장 및 지도 표시</td><td>기기 내 로컬 DB</td></tr>
-    <tr><td>블루투스 기기 정보 (이름, MAC 주소)</td><td>차량 블루투스 연결/해제 감지를 통한 자동 주차 기록</td><td>기기 내 로컬 DB</td></tr>
-    <tr><td>카메라 촬영 사진</td><td>주차 위치 사진 저장 (사용자 선택 시)</td><td>기기 내 저장소</td></tr>
-</table>
-
-<h2>2. 개인정보의 수집 및 이용 목적</h2>
+<thead><tr><th scope="col">항목</th><th scope="col">목적</th><th scope="col">기본 저장 위치</th></tr></thead>
+<tbody><tr><td>좌표·주소·층수·주차 시각</td><td>주차 위치 저장·조회 및 위젯 표시</td><td>기기 내 DB</td></tr>
+<tr><td>차량 Bluetooth 이름·MAC 주소</td><td>등록 차량의 연결·해제 감지와 기록 연결</td><td>기기 내 DB·설정</td></tr>
+<tr><td>사용자가 촬영한 주차 사진</td><td>주차 위치 확인</td><td>앱 전용 사진 저장소</td></tr>
+<tr><td>앱 설정·광고 제거 및 보상 상태</td><td>설정 유지와 혜택 적용</td><td>기기 내 설정</td></tr>
+</tbody></table>
+<h2>2. 이용 목적</h2>
 <ul>
-    <li>주차 위치 자동 감지 및 저장</li>
-    <li>주차 위치를 지도에 표시하여 사용자가 차량을 찾을 수 있도록 지원</li>
-    <li>주차 층수 및 사진 기록</li>
-    <li>홈 화면 위젯을 통한 주차 정보 표시</li>
+<li>차량 연결 상태에 따른 주차 감지와 위치 저장</li>
+<li>주차 위치·층수·사진 조회 및 지도 앱 연결</li>
+<li>위젯·알림·팝업과 사용자 설정 제공</li>
+<li>광고 제공·광고 제거 결제 및 보상 처리, 사용 통계·오류 분석, 안내와 업데이트 정보 제공</li>
 </ul>
-
-<h2>3. 개인정보의 보유 및 파기</h2>
+<h2>3. 보관·삭제 및 백업</h2>
 <ul>
-    <li>모든 데이터는 사용자의 기기 내에만 저장되며, 외부 서버로 전송하지 않습니다.</li>
-    <li>주차 로그는 사용자가 설정한 보존 기간(7일~1년) 경과 후 자동 삭제됩니다.</li>
-    <li>앱을 삭제하면 모든 데이터가 즉시 삭제됩니다.</li>
+<li>현재 주차 기록은 사용자가 삭제하거나 같은 차량의 새 기록으로 교체할 때까지 보관합니다. 사진은 교체·기록 삭제 시 정리하며, 참조되지 않는 사진은 앱 실행 시 정리할 수 있습니다.</li>
+<li>주차 로그 저장을 사용하면 설정한 보존 기간(7·30·90·365일, 기본 30일)을 넘은 로그를 다음 로그 저장 때 정리합니다. 기간 만료 시각에 즉시 삭제하는 방식은 아니며, 로그 화면에서 전체 삭제할 수도 있습니다.</li>
+<li>앱은 Android 백업을 허용하며 주차 DB·설정·앱 전용 사진에 별도 제외 규칙을 두지 않습니다. 기기·계정·백업 설정과 운영체제의 용량 제한 등에 따라 클라우드 백업이나 기기 간 전송에 포함되고 재설치·기기 변경 시 복원될 수 있습니다. 개발자는 이 운영체제 백업을 직접 열람하거나 삭제하지 않습니다.</li>
+<li>앱 삭제 또는 기기 설정의 앱 데이터 삭제는 해당 기기의 앱 데이터를 삭제합니다. 이미 만들어진 백업, 외부 서비스가 받은 데이터 및 Google Play 구매 기록까지 함께 즉시 삭제하는 것은 아닙니다. 백업은 기기·계정 설정에서 별도로 관리해야 합니다.</li>
+<li>외부 서비스 데이터는 해당 서비스의 보존 정책과 적용 설정에 따라 처리됩니다. Crashlytics는 충돌 추적 정보와 관련 식별자를 90일간 보관한 뒤 삭제 절차를 시작합니다. 분석·광고·결제·접속 기록의 보존 기간은 서비스와 데이터 종류에 따라 다르며 앱 안의 주차 로그 보존 기간과는 별개입니다.</li>
 </ul>
-
-<h2>4. 제3자 제공</h2>
-<p>앱은 사용자의 개인정보를 제3자에게 제공하지 않습니다. 다만, 아래 서비스가 자체 개인정보처리방침에 따라 데이터를 수집할 수 있습니다.</p>
+<h2>4. 외부 서비스와 데이터 전송</h2>
+<p>아래 서비스는 기능이 실행될 때 데이터를 처리합니다. SDK가 자동 수집하는 식별자와 진단 정보를 포함하므로 모든 데이터가 익명이라고 보장하지 않습니다. 제공자와 설정에 따라 미국 등 이용자의 거주 국가 밖에서 처리될 수 있습니다. 각 제공자의 정책에서 보관·이전·삭제 방법을 확인할 수 있습니다.</p>
 <ul>
-    <li><strong>Google AdMob</strong> — 광고 제공을 위한 광고 식별자 수집 (<a href="https://policies.google.com/privacy" target="_blank">Google 개인정보처리방침</a>)</li>
-    <li><strong>Firebase Crashlytics</strong> — 앱 오류 분석을 위한 충돌 로그 수집 (개인 식별 정보 미포함)</li>
-    <li><strong>Firebase Analytics</strong> — 앱 사용 통계 수집 (블루투스 신호 종류, 응답 시간 등 익명 데이터, 개인 식별 정보 미포함)</li>
-    <li><strong>Google Play 결제</strong> — 인앱 결제(광고 제거) 처리</li>
+<li><strong dir="ltr">Google AdMob</strong> — 광고 제공·성과 측정·부정 사용 방지를 위해 IP 주소(대략적인 지역 추정에 사용 가능), 광고·앱 식별자, 광고 조회·클릭 등 상호작용과 진단 정보를 처리합니다. 이용 가능한 식별자와 처리 방식은 기기 및 광고 설정에 따라 달라집니다. (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>)</li>
+<li><strong dir="ltr">Firebase Crashlytics</strong> — 오류 분석을 위해 설치 식별자, 기기·OS·앱 정보, 충돌 스택·예외와 진단 로그를 Google에 보냅니다. 위치 조회 실패 시 차량 Bluetooth MAC 주소가 오류 로그에 포함될 수 있습니다. (<a href="https://firebase.google.com/support/privacy">Firebase</a>)</li>
+<li><strong dir="ltr">Firebase Analytics</strong> — 앱 인스턴스·광고 식별자, 기기 정보·대략적인 지역과 이용 이벤트를 Google이 처리합니다. 앱은 Bluetooth 해제 신호 종류(HFP·A2DP·ACL)와 팝업 표시까지 걸린 시간도 보냅니다. 앱의 해당 사용자 정의 이벤트에는 주차 좌표·사진·차량 이름·MAC 주소를 넣지 않습니다.</li>
+<li><strong dir="ltr">Google Play</strong> — Google Play가 구매를 처리하고 앱은 구매 상태·토큰을 조회하고 구매를 확인하여 광고 제거를 적용·복원합니다. 개발자는 카드번호 등 결제수단 정보를 직접 받지 않습니다. 광고 제거는 광고 표시 혜택이며 분석·오류 보고·백업을 모두 중지하는 기능은 아닙니다.</li>
+<li><strong dir="ltr">GitHub</strong> — GitHub에서 안내·팁·버전 정보를 받아오거나 이 방침을 열 때 IP 주소와 요청 정보가 호스팅 제공자에게 전달됩니다. 원격 안내 이미지를 불러오거나 링크를 열면 해당 서버에도 접속 정보가 전달됩니다. 안내 설정 조회 요청에 주차 DB나 사진을 첨부하지 않습니다. (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>)</li>
+<li><strong dir="ltr">Android / Google Play services</strong> — 위치 권한을 이용해 Google Play services의 위치 기능으로 좌표를 얻고 Android Geocoder로 주소를 조회합니다. 주소 변환 과정에서 좌표와 언어가 기기의 주소 변환 제공자에게 전달될 수 있습니다. 처리 방식은 기기의 위치 서비스와 설정에 따릅니다.</li>
+<li><strong dir="ltr">Maps</strong> — 사용자가 지도로 보기를 실행하면 선택한 지도 앱(예: Google Maps·네이버지도·카카오맵·TMAP)에 주차 좌표와 표시용 이름이 전달됩니다. 이후 처리는 해당 지도 서비스의 방침에 따릅니다.</li>
 </ul>
-
 <h2>5. 앱 접근 권한</h2>
 <table>
-    <tr><th>권한</th><th>목적</th><th>필수 여부</th></tr>
-    <tr><td>위치 (정밀/백그라운드)</td><td>주차 시 GPS 위치 자동 저장</td><td>필수</td></tr>
-    <tr><td>블루투스 (연결/스캔)</td><td>차량 블루투스 연결 감지</td><td>필수</td></tr>
-    <tr><td>카메라</td><td>주차 위치 사진 촬영</td><td>선택</td></tr>
-    <tr><td>알림</td><td>주차 감지 시 알림 표시</td><td>선택</td></tr>
-    <tr><td>다른 앱 위에 표시</td><td>주차 팝업 표시</td><td>선택</td></tr>
-</table>
-
-<h2>6. 이용자의 권리</h2>
+<thead><tr><th scope="col">권한</th><th scope="col">목적</th><th scope="col">거부 시 영향</th></tr></thead>
+<tbody><tr><td>위치·백그라운드 위치</td><td>주차 시 좌표 저장과 주소 조회</td><td>자동 위치 저장이 제한됩니다.</td></tr>
+<tr><td>Bluetooth 연결·검색</td><td>차량 선택과 연결·해제 감지</td><td>차량 기반 자동 감지가 제한됩니다.</td></tr>
+<tr><td>카메라</td><td>주차 사진 촬영</td><td>사진 촬영을 사용할 수 없습니다.</td></tr>
+<tr><td>알림</td><td>주차 알림 표시</td><td>알림 표시가 제한됩니다.</td></tr>
+<tr><td>다른 앱 위에 표시</td><td>주차 팝업 표시</td><td>팝업 표시가 제한될 수 있습니다.</td></tr>
+</tbody></table>
+<h2>6. 이용자의 선택과 권리</h2>
 <ul>
-    <li>앱 내 설정에서 주차 기록을 직접 삭제할 수 있습니다.</li>
-    <li>기기 설정에서 앱 권한을 언제든 변경하거나 철회할 수 있습니다.</li>
-    <li>앱을 삭제하면 모든 저장 데이터가 완전히 삭제됩니다.</li>
+<li>메인 화면에서 주차 기록을 삭제하고, 주차 로그 화면에서 로그 저장을 끄거나 전체 로그를 삭제할 수 있습니다. 로그 저장을 끄는 것만으로 기존 로그가 삭제되지는 않습니다.</li>
+<li>기기 설정에서 위치·Bluetooth·카메라 등의 권한을 변경하거나 철회할 수 있습니다. 관련 기능이 제한될 수 있습니다. 광고 ID와 백업도 기기·계정 설정에서 관리할 수 있습니다.</li>
+<li>앱 안에 분석·오류 보고를 각각 끄는 별도 설정은 없습니다. 광고 ID 삭제나 광고 제거 구매가 모든 외부 데이터 처리를 중단시키지는 않습니다. 외부 서비스 데이터는 제공자의 개인정보 관리 기능 또는 아래 문의처를 통해 문의할 수 있습니다.</li>
+<li>개인정보 열람·정정·삭제·처리 제한 등을 요청하려면 아래 이메일로 연락해 주세요. 적용 법령에 따라 요청을 검토합니다. 기기에만 저장된 기록은 개발자가 원격으로 접근할 수 없으므로 앱 또는 기기에서 직접 삭제해야 합니다.</li>
 </ul>
-
-<h2>7. 개인정보 보호책임자</h2>
-<ul>
-    <li>개발자: LazyWorks</li>
-    <li>이메일: <a href="mailto:c.lazy.works@gmail.com">c.lazy.works@gmail.com</a></li>
-</ul>
-
-<h2>8. 개인정보처리방침 변경</h2>
-<p>본 방침이 변경되는 경우 앱 공지 또는 본 페이지를 통해 안내합니다.</p>
-
-<p class="date">시행일: 2026년 4월 4일</p>
-
+<h2>7. 개인정보 문의</h2>
+<ul><li>개발자: <bdi>LazyWorks</bdi></li>
+<li>이메일: <a href="mailto:c.lazy.works@gmail.com" dir="ltr">c.lazy.works@gmail.com</a></li></ul>
+<h2>8. 방침 변경</h2>
+<p>방침 변경은 앱 공지 또는 이 페이지로 안내합니다. 이번 개정은 외부 서비스 전송, 오류 로그의 Bluetooth 주소, 백업·복원 및 실제 삭제 시점을 명확히 설명합니다. 사용 가능한 기능은 설치된 앱 버전에 따라 다를 수 있습니다.</p>
+<p class="date">시행일·최종 개정일: 2026년 11월 9일</p>
 </body>
 </html>
