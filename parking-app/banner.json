@@ -64,5 +64,206 @@
         "vi": "Cài đặt > Cài đặt cửa sổ đỗ xe\nChọn “Mở máy ảnh” hoặc tùy chỉnh nút chọn tầng (B10–10F)."
       }
     }
-  ]
+  ],
+  "main_tips": {
+    "schema_version": 1,
+    "items": [
+      {
+        "id": "reward",
+        "action": "reward",
+        "visible": true,
+        "translations": {
+          "ko": {
+            "message": "광고를 보고\n30일 광고 제거 혜택을 받아보세요.",
+            "highlights": [
+              "30일 광고 제거"
+            ],
+            "button": "광고제거"
+          },
+          "en": {
+            "message": "Watch an ad to get\n30 ad-free days.",
+            "highlights": [
+              "30 ad-free days"
+            ],
+            "button": "Remove ads"
+          },
+          "ja": {
+            "message": "広告を見ると、\n30日間広告なしで使えます。",
+            "highlights": [
+              "30日間広告なし"
+            ],
+            "button": "広告を削除"
+          },
+          "zh-Hans": {
+            "message": "观看一则广告，\n即可享受30天免广告。",
+            "highlights": [
+              "30天免广告"
+            ],
+            "button": "去除广告"
+          },
+          "zh-Hant": {
+            "message": "觀看一則廣告，\n即可享有30天免廣告。",
+            "highlights": [
+              "30天免廣告"
+            ],
+            "button": "移除廣告"
+          },
+          "vi": {
+            "message": "Xem một quảng cáo\nđể được gỡ quảng cáo 30 ngày.",
+            "highlights": [
+              "gỡ quảng cáo 30 ngày"
+            ],
+            "button": "Gỡ quảng cáo"
+          }
+        }
+      },
+      {
+        "id": "purchase",
+        "action": "purchase",
+        "visible": true,
+        "translations": {
+          "ko": {
+            "message": "한 번 구매하면\n광고가 영구적으로 제거돼요.",
+            "highlights": [
+              "영구적으로 제거"
+            ],
+            "button": "영구제거"
+          },
+          "en": {
+            "message": "Pay once to\nremove ads permanently.",
+            "highlights": [
+              "remove ads permanently"
+            ],
+            "button": "Permanent"
+          },
+          "ja": {
+            "message": "一度購入すれば、\n広告を永久に削除できます。",
+            "highlights": [
+              "広告を永久に削除"
+            ],
+            "button": "永久に削除"
+          },
+          "zh-Hans": {
+            "message": "一次购买，\n即可永久去除广告。",
+            "highlights": [
+              "永久去除广告"
+            ],
+            "button": "永久去除"
+          },
+          "zh-Hant": {
+            "message": "購買一次，\n即可永久移除廣告。",
+            "highlights": [
+              "永久移除廣告"
+            ],
+            "button": "永久移除"
+          },
+          "vi": {
+            "message": "Chỉ cần mua một lần\nđể gỡ quảng cáo vĩnh viễn.",
+            "highlights": [
+              "gỡ quảng cáo vĩnh viễn"
+            ],
+            "button": "Gỡ vĩnh viễn"
+          }
+        }
+      },
+      {
+        "id": "camera",
+        "action": "settings_popup",
+        "visible": true,
+        "translations": {
+          "ko": {
+            "message": "사진촬영 팝업이 바로 뜨도록\n설정할 수 있어요.",
+            "highlights": [
+              "사진촬영 팝업"
+            ],
+            "button": "설정하기"
+          },
+          "en": {
+            "message": "You can open the camera directly when you park.\nChange this in settings.",
+            "highlights": [
+              "camera"
+            ],
+            "button": "Open settings"
+          },
+          "ja": {
+            "message": "駐車時にカメラが直接開くように\n設定できます。",
+            "highlights": [
+              "カメラ"
+            ],
+            "button": "設定する"
+          },
+          "zh-Hans": {
+            "message": "可以设置为停车后\n直接打开拍照界面。",
+            "highlights": [
+              "拍照界面"
+            ],
+            "button": "前往设置"
+          },
+          "zh-Hant": {
+            "message": "可設定停車後\n直接開啟拍照畫面。",
+            "highlights": [
+              "拍照畫面"
+            ],
+            "button": "前往設定"
+          },
+          "vi": {
+            "message": "Bạn có thể cài đặt để mở ngay\nmàn hình chụp ảnh khi đỗ xe.",
+            "highlights": [
+              "chụp ảnh"
+            ],
+            "button": "Mở cài đặt"
+          }
+        }
+      },
+      {
+        "id": "widget",
+        "action": "settings_widget",
+        "visible": true,
+        "translations": {
+          "ko": {
+            "message": "위젯을 추가하면 홈 화면에서\n주차 위치를 바로 확인할 수 있어요.",
+            "highlights": [
+              "위젯"
+            ],
+            "button": "설정하기"
+          },
+          "en": {
+            "message": "Add a widget to see your parking spot\non your home screen.",
+            "highlights": [
+              "widget"
+            ],
+            "button": "Open settings"
+          },
+          "ja": {
+            "message": "ウィジェットを追加すると、\nホーム画面で駐車場所をすぐに確認できます。",
+            "highlights": [
+              "ウィジェット"
+            ],
+            "button": "設定する"
+          },
+          "zh-Hans": {
+            "message": "添加小组件，即可在主屏幕上\n快速查看停车位置。",
+            "highlights": [
+              "小组件"
+            ],
+            "button": "前往设置"
+          },
+          "zh-Hant": {
+            "message": "加入小工具，即可在主畫面\n快速查看停車位置。",
+            "highlights": [
+              "小工具"
+            ],
+            "button": "前往設定"
+          },
+          "vi": {
+            "message": "Thêm tiện ích để xem nhanh vị trí đỗ xe\ntrên màn hình chính.",
+            "highlights": [
+              "tiện ích"
+            ],
+            "button": "Mở cài đặt"
+          }
+        }
+      }
+    ]
+  }
 }
