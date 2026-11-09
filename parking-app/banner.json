@@ -43,7 +43,13 @@
         "ja": "新しいバージョンがあります · タップして更新",
         "zh-Hans": "新版本已发布 · 点击更新",
         "zh-Hant": "新版本已推出 · 點一下更新",
-        "vi": "Đã có phiên bản mới · Nhấn để cập nhật"
+        "vi": "Đã có phiên bản mới · Nhấn để cập nhật",
+        "ms": "Versi baharu tersedia · Ketik untuk mengemas kini",
+        "ar": "يتوفر إصدار جديد · اضغط للتحديث",
+        "th": "มีเวอร์ชันใหม่แล้ว · แตะเพื่ออัปเดต",
+        "id": "Versi baru tersedia · Ketuk untuk memperbarui",
+        "fil": "May bagong bersyon · I-tap para mag-update",
+        "fr": "Une nouvelle version est disponible · Touchez pour mettre à jour"
       }
     },
     {
@@ -61,7 +67,13 @@
         "ja": "設定 > 駐車画面の設定\n「撮影画面」の表示や階数ボタン（B10〜10F）を変更できます。",
         "zh-Hans": "设置 > 停车弹窗设置\n可选择“拍照弹窗”，或自定义楼层按钮（B10～10F）。",
         "zh-Hant": "設定 > 停車視窗設定\n可選擇「拍照視窗」，或自訂樓層按鈕（B10～10F）。",
-        "vi": "Cài đặt > Cài đặt cửa sổ đỗ xe\nChọn “Mở máy ảnh” hoặc tùy chỉnh nút chọn tầng (B10–10F)."
+        "vi": "Cài đặt > Cài đặt cửa sổ đỗ xe\nChọn “Mở máy ảnh” hoặc tùy chỉnh nút chọn tầng (B10–10F).",
+        "ms": "Tetapan > Tetapan pop timbul parkir\nPilih “Buka kamera” atau sesuaikan butang aras (B10–10F).",
+        "ar": "الإعدادات ← إعدادات نافذة الوقوف\nاختر “فتح الكاميرا” أو خصّص أزرار الطوابق (⁦B10–10F⁩).",
+        "th": "การตั้งค่า > ตั้งค่าป๊อปอัปที่จอดรถ\nเลือก “เปิดกล้อง” หรือปรับปุ่มเลือกชั้น (B10–10F)",
+        "id": "Setelan > Setelan pop-up parkir\nPilih “Buka kamera” atau sesuaikan tombol lantai (B10–10F).",
+        "fil": "Mga setting > Pop-up ng paradahan\nPiliin ang “Buksan ang camera” o baguhin ang mga button ng palapag (B10–10F).",
+        "fr": "Paramètres > Fenêtre de stationnement\nChoisissez “Ouvrir l’appareil photo” ou adaptez les boutons d’étage (B10–10F)."
       }
     }
   ],
@@ -114,6 +126,48 @@
               "gỡ quảng cáo 30 ngày"
             ],
             "button": "Gỡ quảng cáo"
+          },
+          "ms": {
+            "message": "Tonton iklan untuk menikmati\n30 hari tanpa iklan.",
+            "highlights": [
+              "30 hari tanpa iklan"
+            ],
+            "button": "Buang iklan"
+          },
+          "ar": {
+            "message": "شاهد إعلانًا واحصل على\n30 يومًا بدون إعلانات.",
+            "highlights": [
+              "30 يومًا بدون إعلانات"
+            ],
+            "button": "إزالة الإعلانات"
+          },
+          "th": {
+            "message": "ดูโฆษณาเพื่อรับสิทธิ์\nไม่มีโฆษณา 30 วัน",
+            "highlights": [
+              "ไม่มีโฆษณา 30 วัน"
+            ],
+            "button": "ลบโฆษณา"
+          },
+          "id": {
+            "message": "Tonton iklan untuk mendapatkan\n30 hari tanpa iklan.",
+            "highlights": [
+              "30 hari tanpa iklan"
+            ],
+            "button": "Hapus iklan"
+          },
+          "fil": {
+            "message": "Manood ng ad para makakuha ng\n30 araw na walang ad.",
+            "highlights": [
+              "30 araw na walang ad"
+            ],
+            "button": "Alisin ang ad"
+          },
+          "fr": {
+            "message": "Regardez une publicité pour profiter de\n30 jours sans pub.",
+            "highlights": [
+              "30 jours sans pub"
+            ],
+            "button": "Sans pub"
           }
         }
       },
@@ -163,6 +217,48 @@
               "gỡ quảng cáo vĩnh viễn"
             ],
             "button": "Gỡ vĩnh viễn"
+          },
+          "ms": {
+            "message": "Beli sekali untuk\nmembuang iklan secara kekal.",
+            "highlights": [
+              "membuang iklan secara kekal"
+            ],
+            "button": "Kekal"
+          },
+          "ar": {
+            "message": "اشترِ مرة واحدة\nلإزالة الإعلانات نهائيًا.",
+            "highlights": [
+              "إزالة الإعلانات نهائيًا"
+            ],
+            "button": "إزالة نهائية"
+          },
+          "th": {
+            "message": "ซื้อเพียงครั้งเดียว\nเพื่อนำโฆษณาออกถาวร",
+            "highlights": [
+              "นำโฆษณาออกถาวร"
+            ],
+            "button": "ลบถาวร"
+          },
+          "id": {
+            "message": "Cukup beli sekali untuk\nmenghapus iklan secara permanen.",
+            "highlights": [
+              "menghapus iklan secara permanen"
+            ],
+            "button": "Permanen"
+          },
+          "fil": {
+            "message": "Isang beses lang bibili para\npermanenteng maalis ang mga ad.",
+            "highlights": [
+              "permanenteng maalis ang mga ad"
+            ],
+            "button": "Permanente"
+          },
+          "fr": {
+            "message": "Un seul achat suffit pour\nsupprimer définitivement les publicités.",
+            "highlights": [
+              "supprimer définitivement les publicités"
+            ],
+            "button": "Définitif"
           }
         }
       },
@@ -212,6 +308,48 @@
               "chụp ảnh"
             ],
             "button": "Mở cài đặt"
+          },
+          "ms": {
+            "message": "Anda boleh menetapkan kamera supaya terus terbuka\napabila anda parkir.",
+            "highlights": [
+              "kamera"
+            ],
+            "button": "Tetapan"
+          },
+          "ar": {
+            "message": "يمكنك ضبط الكاميرا لتفتح مباشرةً\nعند إيقاف سيارتك.",
+            "highlights": [
+              "الكاميرا"
+            ],
+            "button": "الإعدادات"
+          },
+          "th": {
+            "message": "ตั้งค่าให้เปิดกล้องทันที\nเมื่อคุณจอดรถได้",
+            "highlights": [
+              "เปิดกล้อง"
+            ],
+            "button": "ตั้งค่า"
+          },
+          "id": {
+            "message": "Atur agar kamera langsung terbuka\nsaat Anda parkir.",
+            "highlights": [
+              "kamera"
+            ],
+            "button": "Setelan"
+          },
+          "fil": {
+            "message": "Puwedeng bumukas agad ang camera\nkapag pumarada ka. Baguhin ito sa mga setting.",
+            "highlights": [
+              "camera"
+            ],
+            "button": "Mga setting"
+          },
+          "fr": {
+            "message": "L’appareil photo peut s’ouvrir dès que vous stationnez.\nActivez cette option dans les paramètres.",
+            "highlights": [
+              "appareil photo"
+            ],
+            "button": "Paramètres"
           }
         }
       },
@@ -261,6 +399,48 @@
               "tiện ích"
             ],
             "button": "Mở cài đặt"
+          },
+          "ms": {
+            "message": "Tambah widget untuk melihat lokasi parkir\npada skrin utama anda.",
+            "highlights": [
+              "widget"
+            ],
+            "button": "Tetapan"
+          },
+          "ar": {
+            "message": "أضف أداة مصغّرة لعرض موقع موقفك\nعلى الشاشة الرئيسية.",
+            "highlights": [
+              "أداة مصغّرة"
+            ],
+            "button": "الإعدادات"
+          },
+          "th": {
+            "message": "เพิ่มวิดเจ็ตเพื่อดูที่จอดรถ\nบนหน้าจอหลัก",
+            "highlights": [
+              "วิดเจ็ต"
+            ],
+            "button": "ตั้งค่า"
+          },
+          "id": {
+            "message": "Tambahkan widget untuk melihat lokasi parkir\ndi layar utama Anda.",
+            "highlights": [
+              "widget"
+            ],
+            "button": "Setelan"
+          },
+          "fil": {
+            "message": "Magdagdag ng widget para makita ang paradahan\nsa iyong home screen.",
+            "highlights": [
+              "widget"
+            ],
+            "button": "Mga setting"
+          },
+          "fr": {
+            "message": "Ajoutez un widget pour retrouver votre voiture\ndepuis l’écran d’accueil.",
+            "highlights": [
+              "widget"
+            ],
+            "button": "Paramètres"
           }
         }
       }
