@@ -247,7 +247,7 @@
             "button": "Permanen"
           },
           "fil": {
-            "message": "Isang beses lang bibili para\npermanenteng maalis ang mga ad.",
+            "message": "Isang pagbili lang ang kailangan para\npermanenteng maalis ang mga ad.",
             "highlights": [
               "permanenteng maalis ang mga ad"
             ],
@@ -258,7 +258,7 @@
             "highlights": [
               "supprimer définitivement les publicités"
             ],
-            "button": "Définitif"
+            "button": "Suppression définitive"
           }
         }
       },
