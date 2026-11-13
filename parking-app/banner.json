@@ -35,7 +35,7 @@
       "message": "새 버전이 나왔습니다 · 눌러서 업데이트",
       "image_url": "",
       "link": "market://details?id=c.lazyworks.parking",
-      "visible": true,
+      "visible": false,
       "max_version_code": 21,
       "messages": {
         "ko": "새 버전이 나왔습니다 · 눌러서 업데이트",
@@ -58,7 +58,7 @@
       "message": "앱 설정 > 주차 팝업\n[바로 촬영] 또는 [층수 B10~10F] 맞춤 설정",
       "image_url": "",
       "link": "",
-      "visible": true,
+      "visible": false,
       "min_version_code": 22,
       "action": "settings_popup",
       "messages": {
