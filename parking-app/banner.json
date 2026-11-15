@@ -354,6 +354,97 @@
         }
       },
       {
+        "id": "floor_buttons",
+        "action": "settings_popup",
+        "visible": true,
+        "translations": {
+          "ko": {
+            "message": "층수 버튼을 주차장에 맞게\n설정할 수 있어요.",
+            "highlights": [
+              "층수 버튼"
+            ],
+            "button": "설정하기"
+          },
+          "en": {
+            "message": "Choose which floor buttons appear\nto suit your parking garage.",
+            "highlights": [
+              "floor buttons"
+            ],
+            "button": "Open settings"
+          },
+          "ja": {
+            "message": "駐車場に合わせて\n表示する階数ボタンを設定できます。",
+            "highlights": [
+              "階数ボタン"
+            ],
+            "button": "設定する"
+          },
+          "zh-Hans": {
+            "message": "可以根据停车场的楼层，\n设置要显示的楼层按钮。",
+            "highlights": [
+              "楼层按钮"
+            ],
+            "button": "前往设置"
+          },
+          "zh-Hant": {
+            "message": "可依停車場的樓層，\n設定要顯示的樓層按鈕。",
+            "highlights": [
+              "樓層按鈕"
+            ],
+            "button": "前往設定"
+          },
+          "vi": {
+            "message": "Bạn có thể tùy chỉnh các nút chọn tầng\ncho phù hợp với bãi đỗ xe.",
+            "highlights": [
+              "nút chọn tầng"
+            ],
+            "button": "Mở cài đặt"
+          },
+          "ms": {
+            "message": "Sesuaikan butang aras yang dipaparkan\nmengikut tempat parkir anda.",
+            "highlights": [
+              "butang aras"
+            ],
+            "button": "Tetapan"
+          },
+          "ar": {
+            "message": "يمكنك تخصيص أزرار الطوابق المعروضة\nلتناسب موقف سيارتك.",
+            "highlights": [
+              "أزرار الطوابق"
+            ],
+            "button": "الإعدادات"
+          },
+          "th": {
+            "message": "เลือกปุ่มชั้นที่ต้องการให้แสดง\nให้เหมาะกับอาคารจอดรถได้",
+            "highlights": [
+              "ปุ่มชั้น"
+            ],
+            "button": "ตั้งค่า"
+          },
+          "id": {
+            "message": "Sesuaikan tombol lantai yang ditampilkan\ndengan gedung parkir Anda.",
+            "highlights": [
+              "tombol lantai"
+            ],
+            "button": "Setelan"
+          },
+          "fil": {
+            "message": "Piliin ang mga button ng palapag\nna babagay sa iyong paradahan.",
+            "highlights": [
+              "button ng palapag"
+            ],
+            "button": "Mga setting"
+          },
+          "fr": {
+            "message": "Choisissez les boutons d’étage à afficher\nselon votre stationnement.",
+            "highlights": [
+              "boutons d’étage"
+            ],
+            "button": "Paramètres"
+          }
+        }
+      },
+      {
         "id": "widget",
         "action": "settings_widget",
         "visible": true,
