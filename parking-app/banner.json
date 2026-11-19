@@ -21,11 +21,11 @@
     {
       "id": 2,
       "type": "notice",
-      "message": "v1.3.1 출시되었습니다",
+      "message": "주차 팝업 안정성을 개선했어요. 최신 버전으로 업데이트해 주세요.",
       "image_url": "",
       "link": "https://play.google.com/store/apps/details?id=c.lazyworks.parking",
-      "visible": false,
-      "max_version_code": 22
+      "visible": true,
+      "max_version_code": 40
     }
   ],
   "popup_banners": [
